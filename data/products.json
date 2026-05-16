@@ -1139,5 +1139,6155 @@
     "description": "Компактная читалка с умной подсветкой и поддержкой всех форматов.",
     "isNew": false,
     "isPopular": false
+  },
+  {
+    "id": "p61",
+    "name": "Смартфон Huawei Series 15 Pro 12/512 ГБ фиолетовый",
+    "category": "Смартфоны",
+    "price": 17999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 995,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p62",
+    "name": "Смартфон Huawei Series 20 Pro 4/64 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 9999,
+    "oldPrice": 13999,
+    "rating": 4.3,
+    "reviews": 643,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p63",
+    "name": "Смартфон Infinix Series 23 Pro 12/512 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 85999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 943,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p64",
+    "name": "Смартфон Samsung Series 23 Pro 8/256 ГБ серый",
+    "category": "Смартфоны",
+    "price": 84999,
+    "oldPrice": 88999,
+    "rating": 4.6,
+    "reviews": 763,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p65",
+    "name": "Смартфон Samsung Series 18 Pro 12/256 ГБ белый",
+    "category": "Смартфоны",
+    "price": 41999,
+    "oldPrice": 48999,
+    "rating": 4.2,
+    "reviews": 233,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p66",
+    "name": "Смартфон Samsung Series 20 Pro 4/64 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 22999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1717,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p67",
+    "name": "Смартфон Samsung Series 14 Pro 12/512 ГБ серый",
+    "category": "Смартфоны",
+    "price": 18999,
+    "oldPrice": 25999,
+    "rating": 4.9,
+    "reviews": 644,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p68",
+    "name": "Смартфон Honor Series 19 Pro 16/1 ТБ серебристый",
+    "category": "Смартфоны",
+    "price": 28999,
+    "oldPrice": null,
+    "rating": 4.2,
+    "reviews": 1181,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p69",
+    "name": "Смартфон Realme Series 20 Pro 12/256 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 68999,
+    "oldPrice": 76999,
+    "rating": 4.5,
+    "reviews": 928,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Realme с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p70",
+    "name": "Смартфон Tecno Series 15 Pro 12/256 ГБ белый",
+    "category": "Смартфоны",
+    "price": 45999,
+    "oldPrice": 50999,
+    "rating": 5.0,
+    "reviews": 495,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p71",
+    "name": "Смартфон Huawei Series 23 Pro 12/512 ГБ серый",
+    "category": "Смартфоны",
+    "price": 62999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 1088,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p72",
+    "name": "Смартфон Huawei Series 28 Pro 12/512 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 88999,
+    "oldPrice": 90999,
+    "rating": 4.8,
+    "reviews": 1198,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p73",
+    "name": "Смартфон Huawei Series 15 Pro 8/256 ГБ фиолетовый",
+    "category": "Смартфоны",
+    "price": 49999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 936,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p74",
+    "name": "Смартфон Samsung Series 27 Pro 12/512 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 14999,
+    "oldPrice": 17999,
+    "rating": 4.7,
+    "reviews": 926,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p75",
+    "name": "Смартфон Tecno Series 14 Pro 4/64 ГБ серый",
+    "category": "Смартфоны",
+    "price": 30999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 489,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p76",
+    "name": "Смартфон Realme Series 18 Pro 8/256 ГБ фиолетовый",
+    "category": "Смартфоны",
+    "price": 88999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 159,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Realme с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p77",
+    "name": "Смартфон Tecno Series 25 Pro 12/512 ГБ белый",
+    "category": "Смартфоны",
+    "price": 89999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 878,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p78",
+    "name": "Смартфон POCO Series 19 Pro 4/64 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 13999,
+    "oldPrice": 16999,
+    "rating": 4.9,
+    "reviews": 264,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от POCO с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p79",
+    "name": "Смартфон Xiaomi Series 30 Pro 12/256 ГБ белый",
+    "category": "Смартфоны",
+    "price": 25999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 927,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Xiaomi с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p80",
+    "name": "Смартфон Tecno Series 18 Pro 8/128 ГБ черный",
+    "category": "Смартфоны",
+    "price": 58999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 1954,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p81",
+    "name": "Смартфон Infinix Series 11 Pro 8/256 ГБ черный",
+    "category": "Смартфоны",
+    "price": 82999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1269,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p82",
+    "name": "Смартфон Realme Series 27 Pro 16/1 ТБ зеленый",
+    "category": "Смартфоны",
+    "price": 39999,
+    "oldPrice": null,
+    "rating": 4.2,
+    "reviews": 993,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Realme с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p83",
+    "name": "Смартфон Huawei Series 12 Pro 4/64 ГБ белый",
+    "category": "Смартфоны",
+    "price": 65999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1974,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p84",
+    "name": "Смартфон POCO Series 27 Pro 8/256 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 88999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 159,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от POCO с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p85",
+    "name": "Смартфон Xiaomi Series 16 Pro 4/64 ГБ белый",
+    "category": "Смартфоны",
+    "price": 83999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 453,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Xiaomi с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p86",
+    "name": "Смартфон Xiaomi Series 20 Pro 12/256 ГБ серый",
+    "category": "Смартфоны",
+    "price": 61999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 819,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Xiaomi с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p87",
+    "name": "Смартфон Xiaomi Series 14 Pro 8/128 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 27999,
+    "oldPrice": 36999,
+    "rating": 4.6,
+    "reviews": 786,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Xiaomi с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p88",
+    "name": "Смартфон POCO Series 26 Pro 12/512 ГБ серый",
+    "category": "Смартфоны",
+    "price": 32999,
+    "oldPrice": 39999,
+    "rating": 4.3,
+    "reviews": 1134,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от POCO с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p89",
+    "name": "Смартфон Honor Series 18 Pro 8/128 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 48999,
+    "oldPrice": 55999,
+    "rating": 4.2,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p90",
+    "name": "Смартфон POCO Series 22 Pro 8/256 ГБ серый",
+    "category": "Смартфоны",
+    "price": 10999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1935,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от POCO с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p91",
+    "name": "Смартфон Realme Series 19 Pro 12/512 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 1465,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Realme с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p92",
+    "name": "Смартфон Infinix Series 21 Pro 16/1 ТБ синий",
+    "category": "Смартфоны",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 881,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p93",
+    "name": "Смартфон Samsung Series 21 Pro 12/512 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 55999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 1408,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p94",
+    "name": "Смартфон Infinix Series 30 Pro 16/1 ТБ черный",
+    "category": "Смартфоны",
+    "price": 48999,
+    "oldPrice": null,
+    "rating": 4.2,
+    "reviews": 204,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p95",
+    "name": "Смартфон Infinix Series 16 Pro 12/256 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 49999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 396,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p96",
+    "name": "Смартфон Samsung Series 29 Pro 8/128 ГБ белый",
+    "category": "Смартфоны",
+    "price": 35999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 197,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p97",
+    "name": "Смартфон Honor Series 21 Pro 8/256 ГБ синий",
+    "category": "Смартфоны",
+    "price": 39999,
+    "oldPrice": 48999,
+    "rating": 4.4,
+    "reviews": 1608,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p98",
+    "name": "Смартфон Tecno Series 21 Pro 4/64 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 81999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 1221,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p99",
+    "name": "Смартфон Tecno Series 30 Pro 12/512 ГБ синий",
+    "category": "Смартфоны",
+    "price": 68999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1879,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p100",
+    "name": "Смартфон Infinix Series 24 Pro 8/128 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 1862,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p101",
+    "name": "Смартфон Realme Series 13 Pro 12/512 ГБ фиолетовый",
+    "category": "Смартфоны",
+    "price": 53999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 797,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Realme с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p102",
+    "name": "Смартфон Xiaomi Series 11 Pro 12/512 ГБ черный",
+    "category": "Смартфоны",
+    "price": 32999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1754,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Xiaomi с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p103",
+    "name": "Смартфон Huawei Series 18 Pro 16/1 ТБ серебристый",
+    "category": "Смартфоны",
+    "price": 78999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 1736,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p104",
+    "name": "Смартфон Tecno Series 26 Pro 4/64 ГБ белый",
+    "category": "Смартфоны",
+    "price": 80999,
+    "oldPrice": 84999,
+    "rating": 4.7,
+    "reviews": 568,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p105",
+    "name": "Смартфон Huawei Series 18 Pro 4/64 ГБ фиолетовый",
+    "category": "Смартфоны",
+    "price": 22999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 1459,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.4\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p106",
+    "name": "Смартфон Infinix Series 30 Pro 12/512 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 68999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1748,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Infinix с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p107",
+    "name": "Смартфон Samsung Series 15 Pro 12/512 ГБ серый",
+    "category": "Смартфоны",
+    "price": 47999,
+    "oldPrice": 55999,
+    "rating": 4.4,
+    "reviews": 222,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "12/512 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p108",
+    "name": "Смартфон Honor Series 30 Pro 8/128 ГБ белый",
+    "category": "Смартфоны",
+    "price": 83999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 761,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p109",
+    "name": "Смартфон Huawei Series 30 Pro 4/64 ГБ белый",
+    "category": "Смартфоны",
+    "price": 23999,
+    "oldPrice": 25999,
+    "rating": 4.2,
+    "reviews": 177,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p110",
+    "name": "Смартфон Xiaomi Series 12 Pro 4/64 ГБ серебристый",
+    "category": "Смартфоны",
+    "price": 83999,
+    "oldPrice": 93999,
+    "rating": 5.0,
+    "reviews": 1052,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.6\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Xiaomi с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p111",
+    "name": "Смартфон Huawei Series 18 Pro 4/64 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 48999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1547,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p112",
+    "name": "Смартфон Honor Series 22 Pro 12/256 ГБ серый",
+    "category": "Смартфоны",
+    "price": 78999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 1977,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p113",
+    "name": "Смартфон Honor Series 19 Pro 8/128 ГБ фиолетовый",
+    "category": "Смартфоны",
+    "price": 11999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 1164,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p114",
+    "name": "Смартфон Huawei Series 22 Pro 4/64 ГБ черный",
+    "category": "Смартфоны",
+    "price": 61999,
+    "oldPrice": 66999,
+    "rating": 5.0,
+    "reviews": 974,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p115",
+    "name": "Смартфон Tecno Series 13 Pro 12/256 ГБ белый",
+    "category": "Смартфоны",
+    "price": 43999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1274,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "12/256 ГБ",
+      "Камера": "64 Мп"
+    },
+    "description": "Отличный смартфон от Tecno с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p116",
+    "name": "Смартфон Honor Series 13 Pro 4/64 ГБ синий",
+    "category": "Смартфоны",
+    "price": 84999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 748,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "4/64 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p117",
+    "name": "Смартфон Realme Series 28 Pro 16/1 ТБ белый",
+    "category": "Смартфоны",
+    "price": 59999,
+    "oldPrice": 65999,
+    "rating": 4.5,
+    "reviews": 1427,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "50 Мп"
+    },
+    "description": "Отличный смартфон от Realme с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p118",
+    "name": "Смартфон Honor Series 14 Pro 8/128 ГБ белый",
+    "category": "Смартфоны",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 220,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED",
+      "Память": "8/128 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Honor с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p119",
+    "name": "Смартфон Samsung Series 28 Pro 8/256 ГБ белый",
+    "category": "Смартфоны",
+    "price": 59999,
+    "oldPrice": 61999,
+    "rating": 4.8,
+    "reviews": 1441,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.5\" AMOLED",
+      "Память": "8/256 ГБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Samsung с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p120",
+    "name": "Смартфон Huawei Series 26 Pro 16/1 ТБ белый",
+    "category": "Смартфоны",
+    "price": 85999,
+    "oldPrice": 88999,
+    "rating": 4.9,
+    "reviews": 125,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED",
+      "Память": "16/1 ТБ",
+      "Камера": "108 Мп"
+    },
+    "description": "Отличный смартфон от Huawei с современным дизайном и мощной камерой.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p121",
+    "name": "Ноутбук Honor 15.6\" / Ryzen 5 / 8GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 79999,
+    "oldPrice": 94999,
+    "rating": 4.6,
+    "reviews": 375,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Honor для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p122",
+    "name": "Ноутбук Dell 15.6\" / Ryzen 5 / 32GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 53999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 43,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p123",
+    "name": "Ноутбук ASUS 15.6\" / i3 / 32GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 125999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 394,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p124",
+    "name": "Ноутбук Lenovo 15.6\" / i3 / 16GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 85999,
+    "oldPrice": 93999,
+    "rating": 4.6,
+    "reviews": 263,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "16GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p125",
+    "name": "Ноутбук Acer 15.6\" / Ryzen 7 / 8GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 88999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 312,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Acer для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p126",
+    "name": "Ноутбук ASUS 15.6\" / Ryzen 7 / 16GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 139999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 603,
+    "image": "https://images.unsplash.com/photo-1612282130134-4b53fa497ef0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "16GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p127",
+    "name": "Ноутбук Maibenben 15.6\" / Ryzen 7 / 32GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 96999,
+    "oldPrice": 105999,
+    "rating": 4.9,
+    "reviews": 209,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Maibenben для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p128",
+    "name": "Ноутбук HP 15.6\" / i5 / 8GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 53999,
+    "oldPrice": 65999,
+    "rating": 4.7,
+    "reviews": 159,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук HP для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p129",
+    "name": "Ноутбук Lenovo 15.6\" / i3 / 16GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 77999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 144,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4050"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p130",
+    "name": "Ноутбук ASUS 15.6\" / i7 / 32GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 71999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 458,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p131",
+    "name": "Ноутбук Honor 15.6\" / Ryzen 7 / 16GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 68999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 150,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "16GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Honor для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p132",
+    "name": "Ноутбук Dell 15.6\" / i3 / 32GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 72999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 447,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p133",
+    "name": "Ноутбук Huawei 15.6\" / Ryzen 5 / 32GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 68999,
+    "oldPrice": 81999,
+    "rating": 4.7,
+    "reviews": 181,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Huawei для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p134",
+    "name": "Ноутбук Honor 15.6\" / i3 / 8GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 130999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 745,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "8GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Honor для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p135",
+    "name": "Ноутбук ASUS 15.6\" / Ryzen 5 / 16GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 137999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 19,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p136",
+    "name": "Ноутбук HP 15.6\" / i5 / 8GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 132999,
+    "oldPrice": 138999,
+    "rating": 4.6,
+    "reviews": 405,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "8GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук HP для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p137",
+    "name": "Ноутбук Dell 15.6\" / i5 / 32GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 90999,
+    "oldPrice": 98999,
+    "rating": 4.4,
+    "reviews": 776,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p138",
+    "name": "Ноутбук Lenovo 15.6\" / Ryzen 7 / 8GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 106999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 800,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p139",
+    "name": "Ноутбук Huawei 15.6\" / i5 / 32GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 51999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 469,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4050"
+    },
+    "description": "Производительный ноутбук Huawei для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p140",
+    "name": "Ноутбук MSI 15.6\" / Ryzen 5 / 32GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 54999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 507,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук MSI для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p141",
+    "name": "Ноутбук HP 15.6\" / Ryzen 5 / 16GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 100999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 435,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук HP для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p142",
+    "name": "Ноутбук HP 15.6\" / i5 / 16GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 87999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 333,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук HP для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p143",
+    "name": "Ноутбук Acer 15.6\" / Ryzen 7 / 8GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 87999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 64,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Acer для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p144",
+    "name": "Ноутбук ASUS 15.6\" / i5 / 16GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 97999,
+    "oldPrice": 112999,
+    "rating": 4.5,
+    "reviews": 728,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p145",
+    "name": "Ноутбук Lenovo 15.6\" / Ryzen 7 / 8GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 108999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 459,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4050"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p146",
+    "name": "Ноутбук Lenovo 15.6\" / Ryzen 5 / 16GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 65999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 741,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p147",
+    "name": "Ноутбук Dell 15.6\" / i7 / 32GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 56999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 643,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p148",
+    "name": "Ноутбук ASUS 15.6\" / i5 / 16GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 43999,
+    "oldPrice": 48999,
+    "rating": 4.5,
+    "reviews": 769,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p149",
+    "name": "Ноутбук ASUS 15.6\" / Ryzen 5 / 8GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 137999,
+    "oldPrice": 151999,
+    "rating": 4.4,
+    "reviews": 125,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p150",
+    "name": "Ноутбук Lenovo 15.6\" / Ryzen 5 / 16GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 81999,
+    "oldPrice": 96999,
+    "rating": 4.8,
+    "reviews": 372,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p151",
+    "name": "Ноутбук Acer 15.6\" / Ryzen 5 / 16GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 51999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 763,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Acer для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p152",
+    "name": "Ноутбук MSI 15.6\" / Ryzen 5 / 16GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 40999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 669,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук MSI для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p153",
+    "name": "Ноутбук Dell 15.6\" / Ryzen 5 / 32GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 78999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 778,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p154",
+    "name": "Ноутбук Huawei 15.6\" / i7 / 16GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 44999,
+    "oldPrice": 50999,
+    "rating": 4.5,
+    "reviews": 68,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "16GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Huawei для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p155",
+    "name": "Ноутбук Dell 15.6\" / i7 / 32GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 132999,
+    "oldPrice": 144999,
+    "rating": 4.8,
+    "reviews": 7,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p156",
+    "name": "Ноутбук Maibenben 15.6\" / Ryzen 7 / 32GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 59999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 753,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук Maibenben для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p157",
+    "name": "Ноутбук MSI 15.6\" / i7 / 8GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 54999,
+    "oldPrice": 62999,
+    "rating": 4.7,
+    "reviews": 267,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук MSI для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p158",
+    "name": "Ноутбук Acer 15.6\" / Ryzen 7 / 16GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 107999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 40,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4050"
+    },
+    "description": "Производительный ноутбук Acer для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p159",
+    "name": "Ноутбук Dell 15.6\" / i7 / 8GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 66999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 593,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p160",
+    "name": "Ноутбук Dell 15.6\" / Ryzen 5 / 16GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 46999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 530,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p161",
+    "name": "Ноутбук ASUS 15.6\" / i7 / 32GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 114999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 283,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p162",
+    "name": "Ноутбук Huawei 15.6\" / i3 / 8GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 95999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 735,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Huawei для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p163",
+    "name": "Ноутбук HP 15.6\" / Ryzen 5 / 32GB / RTX 4070",
+    "category": "Ноутбуки",
+    "price": 130999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 265,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4070"
+    },
+    "description": "Производительный ноутбук HP для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p164",
+    "name": "Ноутбук Acer 15.6\" / i3 / 32GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 80999,
+    "oldPrice": 94999,
+    "rating": 4.4,
+    "reviews": 382,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "32GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Acer для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p165",
+    "name": "Ноутбук Lenovo 15.6\" / Ryzen 5 / 32GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 138999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 378,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 5",
+      "ОЗУ": "32GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Lenovo для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p166",
+    "name": "Ноутбук Dell 15.6\" / i5 / 16GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 95999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 333,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p167",
+    "name": "Ноутбук Dell 15.6\" / i3 / 16GB / Intel Iris Xe",
+    "category": "Ноутбуки",
+    "price": 150999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 215,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i3",
+      "ОЗУ": "16GB",
+      "Видеокарта": "Intel Iris Xe"
+    },
+    "description": "Производительный ноутбук Dell для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p168",
+    "name": "Ноутбук ASUS 15.6\" / i5 / 16GB / RTX 3050",
+    "category": "Ноутбуки",
+    "price": 53999,
+    "oldPrice": 68999,
+    "rating": 4.4,
+    "reviews": 126,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "16GB",
+      "Видеокарта": "RTX 3050"
+    },
+    "description": "Производительный ноутбук ASUS для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p169",
+    "name": "Ноутбук Huawei 15.6\" / Ryzen 7 / 32GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 63999,
+    "oldPrice": 71999,
+    "rating": 4.9,
+    "reviews": 26,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "Ryzen 7",
+      "ОЗУ": "32GB",
+      "Видеокарта": "RTX 4060"
+    },
+    "description": "Производительный ноутбук Huawei для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p170",
+    "name": "Ноутбук Acer 15.6\" / i5 / 8GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 140999,
+    "oldPrice": 155999,
+    "rating": 4.5,
+    "reviews": 750,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS",
+      "Процессор": "i5",
+      "ОЗУ": "8GB",
+      "Видеокарта": "RTX 4050"
+    },
+    "description": "Производительный ноутбук Acer для работы, учебы и развлечений.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p171",
+    "name": "Телевизор LED Haier 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 110999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 1126,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p172",
+    "name": "Телевизор LED Haier 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 33999,
+    "oldPrice": 40999,
+    "rating": 4.5,
+    "reviews": 699,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p173",
+    "name": "Телевизор LED Samsung 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 64999,
+    "oldPrice": 70999,
+    "rating": 4.5,
+    "reviews": 1072,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p174",
+    "name": "Телевизор LED Xiaomi 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 28999,
+    "oldPrice": 38999,
+    "rating": 4.9,
+    "reviews": 938,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Xiaomi с широким экраном 32\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p175",
+    "name": "Телевизор LED Philips 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 117999,
+    "oldPrice": 123999,
+    "rating": 4.8,
+    "reviews": 184,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Philips с широким экраном 55\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p176",
+    "name": "Телевизор LED Samsung 43\" Smart TV",
+    "category": "Телевизоры",
+    "price": 93999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 445,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "43\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 43\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p177",
+    "name": "Телевизор LED Xiaomi 75\" Smart TV",
+    "category": "Телевизоры",
+    "price": 117999,
+    "oldPrice": 122999,
+    "rating": 4.9,
+    "reviews": 287,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "75\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Xiaomi с широким экраном 75\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p178",
+    "name": "Телевизор LED DEXP 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 104999,
+    "oldPrice": 114999,
+    "rating": 4.9,
+    "reviews": 57,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор DEXP с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p179",
+    "name": "Телевизор LED Samsung 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 104999,
+    "oldPrice": 115999,
+    "rating": 4.7,
+    "reviews": 139,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 32\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p180",
+    "name": "Телевизор LED Samsung 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 85999,
+    "oldPrice": 98999,
+    "rating": 4.8,
+    "reviews": 859,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 32\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p181",
+    "name": "Телевизор LED TCL 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 99999,
+    "oldPrice": 109999,
+    "rating": 4.8,
+    "reviews": 915,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор TCL с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p182",
+    "name": "Телевизор LED TCL 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 30999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1052,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор TCL с широким экраном 55\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p183",
+    "name": "Телевизор LED Hisense 50\" Smart TV",
+    "category": "Телевизоры",
+    "price": 60999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 528,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "50\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Hisense с широким экраном 50\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p184",
+    "name": "Телевизор LED DEXP 75\" Smart TV",
+    "category": "Телевизоры",
+    "price": 28999,
+    "oldPrice": 33999,
+    "rating": 4.7,
+    "reviews": 366,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "75\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор DEXP с широким экраном 75\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p185",
+    "name": "Телевизор LED TCL 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 115999,
+    "oldPrice": 118999,
+    "rating": 4.7,
+    "reviews": 915,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор TCL с широким экраном 55\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p186",
+    "name": "Телевизор LED Haier 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 118999,
+    "oldPrice": 128999,
+    "rating": 5.0,
+    "reviews": 318,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 32\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p187",
+    "name": "Телевизор LED TCL 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 117999,
+    "oldPrice": 125999,
+    "rating": 5.0,
+    "reviews": 925,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор TCL с широким экраном 32\".",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p188",
+    "name": "Телевизор LED LG 50\" Smart TV",
+    "category": "Телевизоры",
+    "price": 57999,
+    "oldPrice": 71999,
+    "rating": 4.7,
+    "reviews": 447,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "50\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор LG с широким экраном 50\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p189",
+    "name": "Телевизор LED Haier 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 20999,
+    "oldPrice": 30999,
+    "rating": 4.8,
+    "reviews": 529,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 55\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p190",
+    "name": "Телевизор LED Samsung 75\" Smart TV",
+    "category": "Телевизоры",
+    "price": 79999,
+    "oldPrice": 82999,
+    "rating": 4.5,
+    "reviews": 974,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "75\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 75\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p191",
+    "name": "Телевизор LED Xiaomi 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 117999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 445,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Xiaomi с широким экраном 32\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p192",
+    "name": "Телевизор LED Philips 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 86999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 1286,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Philips с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p193",
+    "name": "Телевизор LED Hisense 43\" Smart TV",
+    "category": "Телевизоры",
+    "price": 34999,
+    "oldPrice": 42999,
+    "rating": 4.8,
+    "reviews": 1199,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "43\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Hisense с широким экраном 43\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p194",
+    "name": "Телевизор LED Xiaomi 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 114999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 444,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Xiaomi с широким экраном 55\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p195",
+    "name": "Телевизор LED Samsung 85\" Smart TV",
+    "category": "Телевизоры",
+    "price": 106999,
+    "oldPrice": 113999,
+    "rating": 4.7,
+    "reviews": 945,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "85\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 85\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p196",
+    "name": "Телевизор LED Haier 85\" Smart TV",
+    "category": "Телевизоры",
+    "price": 44999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 613,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "85\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 85\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p197",
+    "name": "Телевизор LED LG 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 86999,
+    "oldPrice": 95999,
+    "rating": 4.7,
+    "reviews": 543,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор LG с широким экраном 65\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p198",
+    "name": "Телевизор LED LG 65\" Smart TV",
+    "category": "Телевизоры",
+    "price": 114999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 1366,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "65\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор LG с широким экраном 65\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p199",
+    "name": "Телевизор LED Philips 43\" Smart TV",
+    "category": "Телевизоры",
+    "price": 60999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 257,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "43\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Philips с широким экраном 43\".",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p200",
+    "name": "Телевизор LED Philips 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 96999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 406,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Philips с широким экраном 55\".",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p201",
+    "name": "Телевизор LED Haier 50\" Smart TV",
+    "category": "Телевизоры",
+    "price": 46999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 1030,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "50\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 50\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p202",
+    "name": "Телевизор LED Hisense 43\" Smart TV",
+    "category": "Телевизоры",
+    "price": 118999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 1026,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "43\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Hisense с широким экраном 43\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p203",
+    "name": "Телевизор LED LG 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 84999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 385,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор LG с широким экраном 32\".",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p204",
+    "name": "Телевизор LED DEXP 50\" Smart TV",
+    "category": "Телевизоры",
+    "price": 42999,
+    "oldPrice": 54999,
+    "rating": 4.7,
+    "reviews": 595,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "50\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор DEXP с широким экраном 50\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p205",
+    "name": "Телевизор LED Philips 75\" Smart TV",
+    "category": "Телевизоры",
+    "price": 31999,
+    "oldPrice": 46999,
+    "rating": 4.8,
+    "reviews": 297,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "75\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Philips с широким экраном 75\".",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p206",
+    "name": "Телевизор LED Haier 32\" Smart TV",
+    "category": "Телевизоры",
+    "price": 95999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 641,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "32\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Haier с широким экраном 32\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p207",
+    "name": "Телевизор LED Hisense 55\" Smart TV",
+    "category": "Телевизоры",
+    "price": 25999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 592,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Hisense с широким экраном 55\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p208",
+    "name": "Телевизор LED Samsung 50\" Smart TV",
+    "category": "Телевизоры",
+    "price": 31999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 1202,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "50\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Samsung с широким экраном 50\".",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p209",
+    "name": "Телевизор LED Xiaomi 85\" Smart TV",
+    "category": "Телевизоры",
+    "price": 39999,
+    "oldPrice": 49999,
+    "rating": 4.8,
+    "reviews": 696,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "85\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор Xiaomi с широким экраном 85\".",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p210",
+    "name": "Телевизор LED DEXP 43\" Smart TV",
+    "category": "Телевизоры",
+    "price": 110999,
+    "oldPrice": 116999,
+    "rating": 4.9,
+    "reviews": 1363,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "43\"",
+      "Разрешение": "4K UHD",
+      "Smart TV": "Есть"
+    },
+    "description": "Современный 4K телевизор DEXP с широким экраном 43\".",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p211",
+    "name": "SSD накопитель Deepcool PRO Series 258",
+    "category": "Комплектующие",
+    "price": 6999,
+    "oldPrice": 7999,
+    "rating": 4.6,
+    "reviews": 100,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p212",
+    "name": "Видеокарта Kingston PRO Series 109",
+    "category": "Комплектующие",
+    "price": 39999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 505,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p213",
+    "name": "Оперативная память Palit PRO Series 443",
+    "category": "Комплектующие",
+    "price": 20999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 359,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p214",
+    "name": "Блок питания ASUS PRO Series 713",
+    "category": "Комплектующие",
+    "price": 36999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 579,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p215",
+    "name": "Блок питания Kingston PRO Series 487",
+    "category": "Комплектующие",
+    "price": 10999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 836,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p216",
+    "name": "Оперативная память ASUS PRO Series 300",
+    "category": "Комплектующие",
+    "price": 38999,
+    "oldPrice": 40999,
+    "rating": 4.9,
+    "reviews": 734,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p217",
+    "name": "Блок питания Chieftec PRO Series 741",
+    "category": "Комплектующие",
+    "price": 18999,
+    "oldPrice": 23999,
+    "rating": 4.7,
+    "reviews": 961,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p218",
+    "name": "Корпус Samsung PRO Series 664",
+    "category": "Комплектующие",
+    "price": 35999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 586,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p219",
+    "name": "Видеокарта Kingston PRO Series 216",
+    "category": "Комплектующие",
+    "price": 2999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 715,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p220",
+    "name": "Материнская плата Cougar PRO Series 613",
+    "category": "Комплектующие",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 159,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p221",
+    "name": "Материнская плата Deepcool PRO Series 328",
+    "category": "Комплектующие",
+    "price": 37999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 57,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p222",
+    "name": "Корпус Cougar PRO Series 520",
+    "category": "Комплектующие",
+    "price": 9999,
+    "oldPrice": 11999,
+    "rating": 4.7,
+    "reviews": 532,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p223",
+    "name": "Оперативная память GIGABYTE PRO Series 766",
+    "category": "Комплектующие",
+    "price": 16999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 39,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p224",
+    "name": "SSD накопитель Cougar PRO Series 782",
+    "category": "Комплектующие",
+    "price": 31999,
+    "oldPrice": 32999,
+    "rating": 5.0,
+    "reviews": 782,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p225",
+    "name": "Блок питания Deepcool PRO Series 373",
+    "category": "Комплектующие",
+    "price": 32999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 733,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p226",
+    "name": "Оперативная память Chieftec PRO Series 219",
+    "category": "Комплектующие",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 487,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p227",
+    "name": "SSD накопитель Chieftec PRO Series 547",
+    "category": "Комплектующие",
+    "price": 33999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 957,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p228",
+    "name": "Оперативная память Deepcool PRO Series 727",
+    "category": "Комплектующие",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 984,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p229",
+    "name": "Оперативная память Deepcool PRO Series 837",
+    "category": "Комплектующие",
+    "price": 11999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 896,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p230",
+    "name": "Корпус Samsung PRO Series 193",
+    "category": "Комплектующие",
+    "price": 13999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 92,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p231",
+    "name": "Корпус ASUS PRO Series 886",
+    "category": "Комплектующие",
+    "price": 17999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 886,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p232",
+    "name": "Материнская плата Cougar PRO Series 392",
+    "category": "Комплектующие",
+    "price": 25999,
+    "oldPrice": 26999,
+    "rating": 4.7,
+    "reviews": 316,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p233",
+    "name": "Оперативная память Deepcool PRO Series 129",
+    "category": "Комплектующие",
+    "price": 2999,
+    "oldPrice": 3999,
+    "rating": 4.8,
+    "reviews": 375,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p234",
+    "name": "SSD накопитель ASUS PRO Series 129",
+    "category": "Комплектующие",
+    "price": 29999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 428,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p235",
+    "name": "Материнская плата Deepcool PRO Series 520",
+    "category": "Комплектующие",
+    "price": 36999,
+    "oldPrice": 40999,
+    "rating": 4.6,
+    "reviews": 530,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p236",
+    "name": "Материнская плата MSI PRO Series 177",
+    "category": "Комплектующие",
+    "price": 15999,
+    "oldPrice": 17999,
+    "rating": 4.9,
+    "reviews": 123,
+    "image": "https://images.unsplash.com/photo-1612282130134-4b53fa497ef0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "MSI",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от MSI для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p237",
+    "name": "Блок питания GIGABYTE PRO Series 564",
+    "category": "Комплектующие",
+    "price": 3999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 26,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p238",
+    "name": "SSD накопитель Kingston PRO Series 878",
+    "category": "Комплектующие",
+    "price": 15999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 681,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p239",
+    "name": "Видеокарта Deepcool PRO Series 847",
+    "category": "Комплектующие",
+    "price": 29999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 363,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p240",
+    "name": "Видеокарта Chieftec PRO Series 353",
+    "category": "Комплектующие",
+    "price": 34999,
+    "oldPrice": 36999,
+    "rating": 4.9,
+    "reviews": 173,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p241",
+    "name": "Оперативная память Palit PRO Series 753",
+    "category": "Комплектующие",
+    "price": 32999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 155,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p242",
+    "name": "Материнская плата Samsung PRO Series 193",
+    "category": "Комплектующие",
+    "price": 39999,
+    "oldPrice": 44999,
+    "rating": 4.6,
+    "reviews": 333,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p243",
+    "name": "Видеокарта GIGABYTE PRO Series 207",
+    "category": "Комплектующие",
+    "price": 2999,
+    "oldPrice": 6999,
+    "rating": 5.0,
+    "reviews": 763,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p244",
+    "name": "Блок питания GIGABYTE PRO Series 303",
+    "category": "Комплектующие",
+    "price": 28999,
+    "oldPrice": 30999,
+    "rating": 4.8,
+    "reviews": 494,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p245",
+    "name": "Оперативная память ASUS PRO Series 739",
+    "category": "Комплектующие",
+    "price": 40999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 163,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p246",
+    "name": "Оперативная память Cougar PRO Series 145",
+    "category": "Комплектующие",
+    "price": 26999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 786,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p247",
+    "name": "Блок питания Deepcool PRO Series 283",
+    "category": "Комплектующие",
+    "price": 12999,
+    "oldPrice": 15999,
+    "rating": 4.9,
+    "reviews": 21,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p248",
+    "name": "Блок питания Kingston PRO Series 436",
+    "category": "Комплектующие",
+    "price": 28999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 74,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p249",
+    "name": "Блок питания GIGABYTE PRO Series 655",
+    "category": "Комплектующие",
+    "price": 6999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 891,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p250",
+    "name": "SSD накопитель Palit PRO Series 799",
+    "category": "Комплектующие",
+    "price": 40999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 280,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p251",
+    "name": "Оперативная память ASUS PRO Series 690",
+    "category": "Комплектующие",
+    "price": 20999,
+    "oldPrice": 22999,
+    "rating": 4.9,
+    "reviews": 279,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p252",
+    "name": "Корпус Samsung PRO Series 234",
+    "category": "Комплектующие",
+    "price": 9999,
+    "oldPrice": 11999,
+    "rating": 5.0,
+    "reviews": 599,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p253",
+    "name": "Видеокарта GIGABYTE PRO Series 662",
+    "category": "Комплектующие",
+    "price": 34999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 856,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p254",
+    "name": "Блок питания Cougar PRO Series 776",
+    "category": "Комплектующие",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 325,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p255",
+    "name": "Материнская плата GIGABYTE PRO Series 564",
+    "category": "Комплектующие",
+    "price": 21999,
+    "oldPrice": 24999,
+    "rating": 4.8,
+    "reviews": 323,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p256",
+    "name": "SSD накопитель Deepcool PRO Series 849",
+    "category": "Комплектующие",
+    "price": 36999,
+    "oldPrice": 39999,
+    "rating": 4.9,
+    "reviews": 288,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p257",
+    "name": "Материнская плата MSI PRO Series 315",
+    "category": "Комплектующие",
+    "price": 38999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 838,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "MSI",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от MSI для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p258",
+    "name": "Корпус Chieftec PRO Series 895",
+    "category": "Комплектующие",
+    "price": 23999,
+    "oldPrice": 24999,
+    "rating": 5.0,
+    "reviews": 808,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p259",
+    "name": "Оперативная память Palit PRO Series 666",
+    "category": "Комплектующие",
+    "price": 21999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 931,
+    "image": "https://images.unsplash.com/photo-1612282130134-4b53fa497ef0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p260",
+    "name": "Оперативная память Deepcool PRO Series 168",
+    "category": "Комплектующие",
+    "price": 34999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 294,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p261",
+    "name": "Видеокарта GIGABYTE PRO Series 561",
+    "category": "Комплектующие",
+    "price": 21999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 824,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p262",
+    "name": "SSD накопитель Chieftec PRO Series 223",
+    "category": "Комплектующие",
+    "price": 7999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 366,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p263",
+    "name": "Корпус Cougar PRO Series 712",
+    "category": "Комплектующие",
+    "price": 23999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 951,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p264",
+    "name": "Корпус Palit PRO Series 541",
+    "category": "Комплектующие",
+    "price": 27999,
+    "oldPrice": 28999,
+    "rating": 4.9,
+    "reviews": 194,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p265",
+    "name": "Оперативная память Chieftec PRO Series 100",
+    "category": "Комплектующие",
+    "price": 21999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 440,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p266",
+    "name": "Видеокарта Kingston PRO Series 382",
+    "category": "Комплектующие",
+    "price": 38999,
+    "oldPrice": 41999,
+    "rating": 4.9,
+    "reviews": 50,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p267",
+    "name": "SSD накопитель GIGABYTE PRO Series 333",
+    "category": "Комплектующие",
+    "price": 19999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 150,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p268",
+    "name": "Блок питания Palit PRO Series 103",
+    "category": "Комплектующие",
+    "price": 17999,
+    "oldPrice": 20999,
+    "rating": 4.6,
+    "reviews": 280,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p269",
+    "name": "Видеокарта Cougar PRO Series 315",
+    "category": "Комплектующие",
+    "price": 32999,
+    "oldPrice": 33999,
+    "rating": 4.9,
+    "reviews": 57,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p270",
+    "name": "Корпус ASUS PRO Series 115",
+    "category": "Комплектующие",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 150,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p271",
+    "name": "Материнская плата MSI PRO Series 374",
+    "category": "Комплектующие",
+    "price": 15999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 965,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "MSI",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от MSI для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p272",
+    "name": "Блок питания MSI PRO Series 795",
+    "category": "Комплектующие",
+    "price": 34999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 409,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "MSI",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от MSI для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p273",
+    "name": "Блок питания Deepcool PRO Series 102",
+    "category": "Комплектующие",
+    "price": 3999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 809,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p274",
+    "name": "Блок питания Cougar PRO Series 315",
+    "category": "Комплектующие",
+    "price": 5999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 329,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p275",
+    "name": "Материнская плата Cougar PRO Series 648",
+    "category": "Комплектующие",
+    "price": 19999,
+    "oldPrice": 22999,
+    "rating": 4.9,
+    "reviews": 443,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Cougar",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Cougar для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p276",
+    "name": "Оперативная память Deepcool PRO Series 613",
+    "category": "Комплектующие",
+    "price": 15999,
+    "oldPrice": 19999,
+    "rating": 4.8,
+    "reviews": 468,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p277",
+    "name": "Корпус ASUS PRO Series 403",
+    "category": "Комплектующие",
+    "price": 33999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 337,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p278",
+    "name": "Оперативная память Kingston PRO Series 476",
+    "category": "Комплектующие",
+    "price": 10999,
+    "oldPrice": 14999,
+    "rating": 4.6,
+    "reviews": 200,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p279",
+    "name": "Оперативная память Kingston PRO Series 432",
+    "category": "Комплектующие",
+    "price": 33999,
+    "oldPrice": 38999,
+    "rating": 4.9,
+    "reviews": 203,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p280",
+    "name": "Оперативная память Chieftec PRO Series 859",
+    "category": "Комплектующие",
+    "price": 14999,
+    "oldPrice": 17999,
+    "rating": 4.6,
+    "reviews": 77,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Chieftec",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Chieftec для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p281",
+    "name": "Видеокарта Deepcool PRO Series 887",
+    "category": "Комплектующие",
+    "price": 32999,
+    "oldPrice": 37999,
+    "rating": 4.7,
+    "reviews": 249,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Видеокарта"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p282",
+    "name": "SSD накопитель ASUS PRO Series 241",
+    "category": "Комплектующие",
+    "price": 16999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 264,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "ASUS",
+      "Тип": "SSD накопитель"
+    },
+    "description": "Надежное решение от ASUS для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p283",
+    "name": "Блок питания GIGABYTE PRO Series 185",
+    "category": "Комплектующие",
+    "price": 28999,
+    "oldPrice": 31999,
+    "rating": 5.0,
+    "reviews": 448,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p284",
+    "name": "Оперативная память Deepcool PRO Series 287",
+    "category": "Комплектующие",
+    "price": 14999,
+    "oldPrice": 16999,
+    "rating": 4.7,
+    "reviews": 526,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Deepcool",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от Deepcool для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p285",
+    "name": "Блок питания Kingston PRO Series 140",
+    "category": "Комплектующие",
+    "price": 28999,
+    "oldPrice": null,
+    "rating": 5.0,
+    "reviews": 739,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Kingston",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Kingston для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p286",
+    "name": "Блок питания Palit PRO Series 391",
+    "category": "Комплектующие",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 690,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Palit",
+      "Тип": "Блок питания"
+    },
+    "description": "Надежное решение от Palit для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p287",
+    "name": "Корпус Samsung PRO Series 696",
+    "category": "Комплектующие",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 584,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p288",
+    "name": "Корпус Samsung PRO Series 824",
+    "category": "Комплектующие",
+    "price": 34999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 797,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Корпус"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p289",
+    "name": "Оперативная память GIGABYTE PRO Series 165",
+    "category": "Комплектующие",
+    "price": 11999,
+    "oldPrice": 13999,
+    "rating": 4.9,
+    "reviews": 1000,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "GIGABYTE",
+      "Тип": "Оперативная память"
+    },
+    "description": "Надежное решение от GIGABYTE для сборки мощного ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p290",
+    "name": "Материнская плата Samsung PRO Series 557",
+    "category": "Комплектующие",
+    "price": 5999,
+    "oldPrice": 10999,
+    "rating": 4.7,
+    "reviews": 233,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Материнская плата"
+    },
+    "description": "Надежное решение от Samsung для сборки мощного ПК.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p291",
+    "name": "Клавиатура Logitech Model 57",
+    "category": "Периферия",
+    "price": 16999,
+    "oldPrice": 18999,
+    "rating": 4.9,
+    "reviews": 2574,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p292",
+    "name": "Клавиатура AOC Model 90",
+    "category": "Периферия",
+    "price": 8999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 535,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p293",
+    "name": "Гарнитура HyperX Model 55",
+    "category": "Периферия",
+    "price": 26999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 357,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "HyperX",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда HyperX.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p294",
+    "name": "Монитор AOC Model 29",
+    "category": "Периферия",
+    "price": 17999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1200,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p295",
+    "name": "Клавиатура LG Model 38",
+    "category": "Периферия",
+    "price": 11999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2488,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p296",
+    "name": "Гарнитура LG Model 79",
+    "category": "Периферия",
+    "price": 30999,
+    "oldPrice": 31999,
+    "rating": 4.7,
+    "reviews": 1752,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p297",
+    "name": "Гарнитура Razer Model 90",
+    "category": "Периферия",
+    "price": 30999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 1922,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Razer",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Razer.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p298",
+    "name": "Микрофон AOC Model 22",
+    "category": "Периферия",
+    "price": 12999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 2985,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p299",
+    "name": "Микрофон Logitech Model 92",
+    "category": "Периферия",
+    "price": 30999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 1432,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p300",
+    "name": "Микрофон Redragon Model 38",
+    "category": "Периферия",
+    "price": 4999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2741,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p301",
+    "name": "Мышь AOC Model 62",
+    "category": "Периферия",
+    "price": 18999,
+    "oldPrice": 19999,
+    "rating": 4.8,
+    "reviews": 1037,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p302",
+    "name": "Монитор Redragon Model 20",
+    "category": "Периферия",
+    "price": 6999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 673,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p303",
+    "name": "Клавиатура Logitech Model 81",
+    "category": "Периферия",
+    "price": 16999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1931,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p304",
+    "name": "Гарнитура Fifine Model 26",
+    "category": "Периферия",
+    "price": 5999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 821,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Fifine",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Fifine.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p305",
+    "name": "Микрофон AOC Model 16",
+    "category": "Периферия",
+    "price": 22999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 2223,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p306",
+    "name": "Гарнитура Ardor Gaming Model 36",
+    "category": "Периферия",
+    "price": 12999,
+    "oldPrice": 16999,
+    "rating": 4.6,
+    "reviews": 1920,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p307",
+    "name": "Гарнитура Ardor Gaming Model 91",
+    "category": "Периферия",
+    "price": 5999,
+    "oldPrice": 6999,
+    "rating": 4.9,
+    "reviews": 1367,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p308",
+    "name": "Микрофон Razer Model 24",
+    "category": "Периферия",
+    "price": 11999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 981,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Razer",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Razer.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p309",
+    "name": "Клавиатура Logitech Model 56",
+    "category": "Периферия",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 2759,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p310",
+    "name": "Гарнитура Logitech Model 61",
+    "category": "Периферия",
+    "price": 28999,
+    "oldPrice": 32999,
+    "rating": 4.7,
+    "reviews": 2067,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p311",
+    "name": "Гарнитура Ardor Gaming Model 72",
+    "category": "Периферия",
+    "price": 10999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 301,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p312",
+    "name": "Клавиатура Redragon Model 94",
+    "category": "Периферия",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 2154,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p313",
+    "name": "Гарнитура HyperX Model 27",
+    "category": "Периферия",
+    "price": 12999,
+    "oldPrice": 16999,
+    "rating": 4.8,
+    "reviews": 2911,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "HyperX",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда HyperX.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p314",
+    "name": "Монитор Redragon Model 39",
+    "category": "Периферия",
+    "price": 17999,
+    "oldPrice": 18999,
+    "rating": 4.5,
+    "reviews": 2192,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p315",
+    "name": "Микрофон Redragon Model 73",
+    "category": "Периферия",
+    "price": 6999,
+    "oldPrice": 9999,
+    "rating": 4.9,
+    "reviews": 387,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p316",
+    "name": "Мышь LG Model 93",
+    "category": "Периферия",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 1869,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p317",
+    "name": "Монитор Redragon Model 43",
+    "category": "Периферия",
+    "price": 5999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 2825,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p318",
+    "name": "Гарнитура Logitech Model 97",
+    "category": "Периферия",
+    "price": 11999,
+    "oldPrice": 13999,
+    "rating": 4.8,
+    "reviews": 394,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p319",
+    "name": "Микрофон Ardor Gaming Model 18",
+    "category": "Периферия",
+    "price": 27999,
+    "oldPrice": 30999,
+    "rating": 4.6,
+    "reviews": 1551,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p320",
+    "name": "Мышь Ardor Gaming Model 40",
+    "category": "Периферия",
+    "price": 3999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 1646,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p321",
+    "name": "Монитор Redragon Model 76",
+    "category": "Периферия",
+    "price": 10999,
+    "oldPrice": 12999,
+    "rating": 4.5,
+    "reviews": 433,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p322",
+    "name": "Мышь LG Model 54",
+    "category": "Периферия",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 2511,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p323",
+    "name": "Клавиатура Logitech Model 10",
+    "category": "Периферия",
+    "price": 7999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2291,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p324",
+    "name": "Клавиатура Ardor Gaming Model 64",
+    "category": "Периферия",
+    "price": 28999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 750,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p325",
+    "name": "Клавиатура Fifine Model 91",
+    "category": "Периферия",
+    "price": 30999,
+    "oldPrice": 33999,
+    "rating": 4.4,
+    "reviews": 786,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Fifine",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Fifine.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p326",
+    "name": "Мышь Razer Model 26",
+    "category": "Периферия",
+    "price": 21999,
+    "oldPrice": 22999,
+    "rating": 4.7,
+    "reviews": 1377,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Razer",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда Razer.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p327",
+    "name": "Гарнитура AOC Model 70",
+    "category": "Периферия",
+    "price": 12999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 2841,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p328",
+    "name": "Мышь AOC Model 27",
+    "category": "Периферия",
+    "price": 6999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 740,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p329",
+    "name": "Клавиатура Logitech Model 91",
+    "category": "Периферия",
+    "price": 13999,
+    "oldPrice": 15999,
+    "rating": 4.3,
+    "reviews": 2485,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p330",
+    "name": "Микрофон Fifine Model 81",
+    "category": "Периферия",
+    "price": 19999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 274,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Fifine",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Fifine.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p331",
+    "name": "Мышь LG Model 89",
+    "category": "Периферия",
+    "price": 3999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 2760,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p332",
+    "name": "Мышь Logitech Model 43",
+    "category": "Периферия",
+    "price": 2999,
+    "oldPrice": 4999,
+    "rating": 4.3,
+    "reviews": 550,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Logitech",
+      "Тип": "Мышь"
+    },
+    "description": "Качественный товар от проверенного бренда Logitech.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p333",
+    "name": "Микрофон LG Model 87",
+    "category": "Периферия",
+    "price": 15999,
+    "oldPrice": 19999,
+    "rating": 4.4,
+    "reviews": 2952,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p334",
+    "name": "Монитор LG Model 28",
+    "category": "Периферия",
+    "price": 11999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 395,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p335",
+    "name": "Микрофон Redragon Model 54",
+    "category": "Периферия",
+    "price": 15999,
+    "oldPrice": 17999,
+    "rating": 4.6,
+    "reviews": 796,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p336",
+    "name": "Гарнитура Ardor Gaming Model 56",
+    "category": "Периферия",
+    "price": 29999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 790,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Гарнитура"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p337",
+    "name": "Монитор Redragon Model 40",
+    "category": "Периферия",
+    "price": 11999,
+    "oldPrice": 13999,
+    "rating": 4.8,
+    "reviews": 968,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Redragon",
+      "Тип": "Монитор"
+    },
+    "description": "Качественный товар от проверенного бренда Redragon.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p338",
+    "name": "Микрофон AOC Model 99",
+    "category": "Периферия",
+    "price": 22999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1722,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p339",
+    "name": "Клавиатура Ardor Gaming Model 65",
+    "category": "Периферия",
+    "price": 26999,
+    "oldPrice": 29999,
+    "rating": 4.8,
+    "reviews": 2230,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Ardor Gaming",
+      "Тип": "Клавиатура"
+    },
+    "description": "Качественный товар от проверенного бренда Ardor Gaming.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p340",
+    "name": "Микрофон AOC Model 18",
+    "category": "Периферия",
+    "price": 10999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1300,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "AOC",
+      "Тип": "Микрофон"
+    },
+    "description": "Качественный товар от проверенного бренда AOC.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p341",
+    "name": "Умная розетка Xiaomi Model 13",
+    "category": "Умный дом",
+    "price": 18999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 2109,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Xiaomi",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Xiaomi.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p342",
+    "name": "Умная розетка Яндекс Model 81",
+    "category": "Умный дом",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 2988,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p343",
+    "name": "Робот-пылесос Sber Model 69",
+    "category": "Умный дом",
+    "price": 13999,
+    "oldPrice": 14999,
+    "rating": 4.3,
+    "reviews": 69,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p344",
+    "name": "Робот-пылесос Sber Model 44",
+    "category": "Умный дом",
+    "price": 13999,
+    "oldPrice": 14999,
+    "rating": 4.9,
+    "reviews": 2807,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p345",
+    "name": "Умная колонка Яндекс Model 41",
+    "category": "Умный дом",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 119,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p346",
+    "name": "Умная колонка Tapo Model 90",
+    "category": "Умный дом",
+    "price": 2999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 2273,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tapo",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда Tapo.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p347",
+    "name": "Умная розетка Sber Model 18",
+    "category": "Умный дом",
+    "price": 8999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1655,
+    "image": "https://images.unsplash.com/photo-1612282130134-4b53fa497ef0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p348",
+    "name": "Датчик движения Sber Model 58",
+    "category": "Умный дом",
+    "price": 16999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1061,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Датчик движения"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p349",
+    "name": "Умная колонка VK Model 77",
+    "category": "Умный дом",
+    "price": 18999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 998,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "VK",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда VK.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p350",
+    "name": "Робот-пылесос VK Model 59",
+    "category": "Умный дом",
+    "price": 23999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 202,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "VK",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда VK.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p351",
+    "name": "Умная розетка VK Model 39",
+    "category": "Умный дом",
+    "price": 30999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 987,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "VK",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда VK.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p352",
+    "name": "Датчик движения Яндекс Model 77",
+    "category": "Умный дом",
+    "price": 29999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 436,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Датчик движения"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p353",
+    "name": "Умная лампа Sber Model 44",
+    "category": "Умный дом",
+    "price": 19999,
+    "oldPrice": 23999,
+    "rating": 4.8,
+    "reviews": 1025,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Умная лампа"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p354",
+    "name": "Умная розетка Sber Model 87",
+    "category": "Умный дом",
+    "price": 16999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 355,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p355",
+    "name": "IP-камера Яндекс Model 77",
+    "category": "Умный дом",
+    "price": 16999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 619,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p356",
+    "name": "Умная колонка Sber Model 70",
+    "category": "Умный дом",
+    "price": 9999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 613,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p357",
+    "name": "Робот-пылесос Яндекс Model 20",
+    "category": "Умный дом",
+    "price": 15999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 665,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p358",
+    "name": "IP-камера Sber Model 44",
+    "category": "Умный дом",
+    "price": 18999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 737,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p359",
+    "name": "Робот-пылесос Tapo Model 44",
+    "category": "Умный дом",
+    "price": 8999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2577,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tapo",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Tapo.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p360",
+    "name": "IP-камера Xiaomi Model 99",
+    "category": "Умный дом",
+    "price": 23999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 247,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Xiaomi",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда Xiaomi.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p361",
+    "name": "Робот-пылесос Aqara Model 46",
+    "category": "Умный дом",
+    "price": 26999,
+    "oldPrice": 28999,
+    "rating": 4.4,
+    "reviews": 2005,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Aqara",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Aqara.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p362",
+    "name": "Датчик движения Яндекс Model 96",
+    "category": "Умный дом",
+    "price": 29999,
+    "oldPrice": 32999,
+    "rating": 4.4,
+    "reviews": 1915,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Датчик движения"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p363",
+    "name": "Датчик движения Xiaomi Model 26",
+    "category": "Умный дом",
+    "price": 20999,
+    "oldPrice": 24999,
+    "rating": 4.8,
+    "reviews": 1409,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Xiaomi",
+      "Тип": "Датчик движения"
+    },
+    "description": "Качественный товар от проверенного бренда Xiaomi.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p364",
+    "name": "Датчик движения VK Model 77",
+    "category": "Умный дом",
+    "price": 30999,
+    "oldPrice": 34999,
+    "rating": 4.6,
+    "reviews": 1129,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "VK",
+      "Тип": "Датчик движения"
+    },
+    "description": "Качественный товар от проверенного бренда VK.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p365",
+    "name": "Датчик движения Sber Model 43",
+    "category": "Умный дом",
+    "price": 17999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 1790,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Датчик движения"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p366",
+    "name": "Робот-пылесос Яндекс Model 34",
+    "category": "Умный дом",
+    "price": 2999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 767,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Робот-пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p367",
+    "name": "Умная лампа Xiaomi Model 86",
+    "category": "Умный дом",
+    "price": 4999,
+    "oldPrice": 7999,
+    "rating": 4.8,
+    "reviews": 434,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Xiaomi",
+      "Тип": "Умная лампа"
+    },
+    "description": "Качественный товар от проверенного бренда Xiaomi.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p368",
+    "name": "Умная колонка Aqara Model 81",
+    "category": "Умный дом",
+    "price": 18999,
+    "oldPrice": 22999,
+    "rating": 4.8,
+    "reviews": 208,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Aqara",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда Aqara.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p369",
+    "name": "Умная колонка Xiaomi Model 45",
+    "category": "Умный дом",
+    "price": 18999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 1526,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Xiaomi",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда Xiaomi.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p370",
+    "name": "Умная розетка VK Model 21",
+    "category": "Умный дом",
+    "price": 23999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2925,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "VK",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда VK.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p371",
+    "name": "Умная розетка Яндекс Model 44",
+    "category": "Умный дом",
+    "price": 17999,
+    "oldPrice": 19999,
+    "rating": 4.3,
+    "reviews": 1831,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p372",
+    "name": "Умная колонка Tapo Model 75",
+    "category": "Умный дом",
+    "price": 23999,
+    "oldPrice": 25999,
+    "rating": 4.7,
+    "reviews": 2220,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tapo",
+      "Тип": "Умная колонка"
+    },
+    "description": "Качественный товар от проверенного бренда Tapo.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p373",
+    "name": "Умная лампа Aqara Model 45",
+    "category": "Умный дом",
+    "price": 10999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2741,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Aqara",
+      "Тип": "Умная лампа"
+    },
+    "description": "Качественный товар от проверенного бренда Aqara.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p374",
+    "name": "Умная розетка Aqara Model 62",
+    "category": "Умный дом",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 477,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Aqara",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Aqara.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p375",
+    "name": "Умная розетка Sber Model 55",
+    "category": "Умный дом",
+    "price": 29999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 2352,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Умная розетка"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p376",
+    "name": "IP-камера Sber Model 25",
+    "category": "Умный дом",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 160,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p377",
+    "name": "IP-камера VK Model 32",
+    "category": "Умный дом",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 2188,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "VK",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда VK.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p378",
+    "name": "IP-камера Яндекс Model 21",
+    "category": "Умный дом",
+    "price": 13999,
+    "oldPrice": 14999,
+    "rating": 4.8,
+    "reviews": 1520,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Яндекс",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда Яндекс.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p379",
+    "name": "Умная лампа Sber Model 73",
+    "category": "Умный дом",
+    "price": 6999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 311,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Sber",
+      "Тип": "Умная лампа"
+    },
+    "description": "Качественный товар от проверенного бренда Sber.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p380",
+    "name": "IP-камера Tapo Model 84",
+    "category": "Умный дом",
+    "price": 4999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 2943,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tapo",
+      "Тип": "IP-камера"
+    },
+    "description": "Качественный товар от проверенного бренда Tapo.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p381",
+    "name": "Блендер Bosch Model 83",
+    "category": "Бытовая техника",
+    "price": 26999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 2651,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Bosch",
+      "Тип": "Блендер"
+    },
+    "description": "Качественный товар от проверенного бренда Bosch.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p382",
+    "name": "Блендер Indesit Model 51",
+    "category": "Бытовая техника",
+    "price": 23999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1779,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Indesit",
+      "Тип": "Блендер"
+    },
+    "description": "Качественный товар от проверенного бренда Indesit.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p383",
+    "name": "Кофемашина Haier Model 58",
+    "category": "Бытовая техника",
+    "price": 27999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 1554,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Haier",
+      "Тип": "Кофемашина"
+    },
+    "description": "Качественный товар от проверенного бренда Haier.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p384",
+    "name": "Стиральная машина Bosch Model 66",
+    "category": "Бытовая техника",
+    "price": 15999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 130,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Bosch",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда Bosch.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p385",
+    "name": "Пылесос Bosch Model 53",
+    "category": "Бытовая техника",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 1569,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Bosch",
+      "Тип": "Пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Bosch.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p386",
+    "name": "Холодильник LG Model 25",
+    "category": "Бытовая техника",
+    "price": 8999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2168,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Холодильник"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p387",
+    "name": "Микроволновая печь Indesit Model 85",
+    "category": "Бытовая техника",
+    "price": 6999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1297,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Indesit",
+      "Тип": "Микроволновая печь"
+    },
+    "description": "Качественный товар от проверенного бренда Indesit.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p388",
+    "name": "Кофемашина LG Model 46",
+    "category": "Бытовая техника",
+    "price": 20999,
+    "oldPrice": 23999,
+    "rating": 4.7,
+    "reviews": 334,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Кофемашина"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p389",
+    "name": "Микроволновая печь DeLonghi Model 36",
+    "category": "Бытовая техника",
+    "price": 19999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 2919,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DeLonghi",
+      "Тип": "Микроволновая печь"
+    },
+    "description": "Качественный товар от проверенного бренда DeLonghi.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p390",
+    "name": "Пылесос DEXP Model 10",
+    "category": "Бытовая техника",
+    "price": 27999,
+    "oldPrice": 28999,
+    "rating": 4.6,
+    "reviews": 885,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DEXP",
+      "Тип": "Пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда DEXP.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p391",
+    "name": "Пылесос Tefal Model 43",
+    "category": "Бытовая техника",
+    "price": 19999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 2932,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tefal",
+      "Тип": "Пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Tefal.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p392",
+    "name": "Стиральная машина Bosch Model 50",
+    "category": "Бытовая техника",
+    "price": 16999,
+    "oldPrice": 18999,
+    "rating": 4.5,
+    "reviews": 1667,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Bosch",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда Bosch.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p393",
+    "name": "Стиральная машина Indesit Model 49",
+    "category": "Бытовая техника",
+    "price": 26999,
+    "oldPrice": null,
+    "rating": 4.6,
+    "reviews": 2387,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Indesit",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда Indesit.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p394",
+    "name": "Кофемашина DeLonghi Model 52",
+    "category": "Бытовая техника",
+    "price": 13999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2231,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DeLonghi",
+      "Тип": "Кофемашина"
+    },
+    "description": "Качественный товар от проверенного бренда DeLonghi.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p395",
+    "name": "Стиральная машина Beko Model 46",
+    "category": "Бытовая техника",
+    "price": 18999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 2185,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Beko",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда Beko.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p396",
+    "name": "Стиральная машина DEXP Model 69",
+    "category": "Бытовая техника",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.7,
+    "reviews": 1178,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DEXP",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда DEXP.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p397",
+    "name": "Холодильник Samsung Model 59",
+    "category": "Бытовая техника",
+    "price": 22999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 1749,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Samsung",
+      "Тип": "Холодильник"
+    },
+    "description": "Качественный товар от проверенного бренда Samsung.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p398",
+    "name": "Кофемашина LG Model 28",
+    "category": "Бытовая техника",
+    "price": 9999,
+    "oldPrice": 10999,
+    "rating": 4.9,
+    "reviews": 2984,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Кофемашина"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p399",
+    "name": "Кофемашина Indesit Model 13",
+    "category": "Бытовая техника",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.3,
+    "reviews": 2368,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Indesit",
+      "Тип": "Кофемашина"
+    },
+    "description": "Качественный товар от проверенного бренда Indesit.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p400",
+    "name": "Холодильник DEXP Model 40",
+    "category": "Бытовая техника",
+    "price": 25999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 540,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DEXP",
+      "Тип": "Холодильник"
+    },
+    "description": "Качественный товар от проверенного бренда DEXP.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p401",
+    "name": "Кофемашина DeLonghi Model 45",
+    "category": "Бытовая техника",
+    "price": 25999,
+    "oldPrice": 26999,
+    "rating": 4.4,
+    "reviews": 936,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DeLonghi",
+      "Тип": "Кофемашина"
+    },
+    "description": "Качественный товар от проверенного бренда DeLonghi.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p402",
+    "name": "Блендер DeLonghi Model 83",
+    "category": "Бытовая техника",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 872,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "DeLonghi",
+      "Тип": "Блендер"
+    },
+    "description": "Качественный товар от проверенного бренда DeLonghi.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p403",
+    "name": "Холодильник Bosch Model 82",
+    "category": "Бытовая техника",
+    "price": 22999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 2755,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Bosch",
+      "Тип": "Холодильник"
+    },
+    "description": "Качественный товар от проверенного бренда Bosch.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p404",
+    "name": "Стиральная машина LG Model 47",
+    "category": "Бытовая техника",
+    "price": 24999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 625,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p405",
+    "name": "Стиральная машина LG Model 29",
+    "category": "Бытовая техника",
+    "price": 25999,
+    "oldPrice": null,
+    "rating": 4.4,
+    "reviews": 1316,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "LG",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда LG.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p406",
+    "name": "Блендер Bosch Model 94",
+    "category": "Бытовая техника",
+    "price": 21999,
+    "oldPrice": 22999,
+    "rating": 4.9,
+    "reviews": 1878,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Bosch",
+      "Тип": "Блендер"
+    },
+    "description": "Качественный товар от проверенного бренда Bosch.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p407",
+    "name": "Пылесос Tefal Model 53",
+    "category": "Бытовая техника",
+    "price": 8999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 2024,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tefal",
+      "Тип": "Пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Tefal.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p408",
+    "name": "Пылесос Tefal Model 97",
+    "category": "Бытовая техника",
+    "price": 4999,
+    "oldPrice": 8999,
+    "rating": 4.5,
+    "reviews": 2570,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tefal",
+      "Тип": "Пылесос"
+    },
+    "description": "Качественный товар от проверенного бренда Tefal.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p409",
+    "name": "Холодильник Haier Model 55",
+    "category": "Бытовая техника",
+    "price": 23999,
+    "oldPrice": null,
+    "rating": 4.5,
+    "reviews": 307,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Haier",
+      "Тип": "Холодильник"
+    },
+    "description": "Качественный товар от проверенного бренда Haier.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p410",
+    "name": "Стиральная машина Tefal Model 97",
+    "category": "Бытовая техника",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 989,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Бренд": "Tefal",
+      "Тип": "Стиральная машина"
+    },
+    "description": "Качественный товар от проверенного бренда Tefal.",
+    "isNew": true,
+    "isPopular": false
   }
 ]

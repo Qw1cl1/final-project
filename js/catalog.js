@@ -7,7 +7,11 @@ class Catalog {
     this.priceMax = document.getElementById('price-max');
     this.filterForm = document.getElementById('filter-form');
     this.activeCategory = new URLSearchParams(window.location.search).get('cat') || 'all';
+    
     this.filteredProducts = [];
+    this.currentPage = 1;
+    this.itemsPerPage = 20;
+    this.observer = null;
     
     this.init();
   }
@@ -15,7 +19,6 @@ class Catalog {
   async init() {
     await App.init();
     
-    // Update breadcrumb and title if category is selected
     if (this.activeCategory !== 'all') {
       const titleEl = document.getElementById('catalog-title');
       const breadcrumbEl = document.getElementById('catalog-breadcrumb');
@@ -26,6 +29,7 @@ class Catalog {
     this.filteredProducts = [...App.products];
     this.applyFilters();
     this.setupListeners();
+    this.setupIntersectionObserver();
   }
 
   setupListeners() {
@@ -41,6 +45,23 @@ class Catalog {
         setTimeout(() => this.applyFilters(), 0);
       });
     }
+  }
+
+  setupIntersectionObserver() {
+    // Create an observer to watch for a scroll trigger at the bottom of the grid
+    const options = {
+      root: null,
+      rootMargin: '100px',
+      threshold: 0.1
+    };
+
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          this.loadMore();
+        }
+      });
+    }, options);
   }
 
   applyFilters() {
@@ -84,12 +105,16 @@ class Catalog {
     }
 
     this.filteredProducts = result;
-    this.render();
+    this.currentPage = 1;
+    this.renderInitial();
   }
 
-  render() {
+  renderInitial() {
     if (!this.grid) return;
     
+    // Disconnect observer temporarily
+    if (this.observer) this.observer.disconnect();
+
     if (this.totalCountEl) {
       const count = this.filteredProducts.length;
       let text = `${count} товаров`;
@@ -111,7 +136,56 @@ class Catalog {
       return;
     }
 
-    this.grid.innerHTML = this.filteredProducts.map(p => App.generateProductCard(p, '../')).join('');
+    // Render first page
+    const itemsToShow = this.filteredProducts.slice(0, this.itemsPerPage);
+    this.grid.innerHTML = itemsToShow.map(p => App.generateProductCard(p, '../')).join('');
+
+    // Add scroll trigger element if there are more items
+    if (this.filteredProducts.length > this.itemsPerPage) {
+      this.addScrollTrigger();
+    }
+  }
+
+  loadMore() {
+    const startIndex = this.currentPage * this.itemsPerPage;
+    const endIndex = startIndex + this.itemsPerPage;
+    const nextItems = this.filteredProducts.slice(startIndex, endIndex);
+
+    if (nextItems.length === 0) return;
+
+    // Remove old trigger
+    const oldTrigger = document.getElementById('scroll-trigger');
+    if (oldTrigger) {
+      if (this.observer) this.observer.unobserve(oldTrigger);
+      oldTrigger.remove();
+    }
+
+    // Append new items
+    const html = nextItems.map(p => App.generateProductCard(p, '../')).join('');
+    this.grid.insertAdjacentHTML('beforeend', html);
+    
+    this.currentPage++;
+
+    // Re-add trigger if there are still more items
+    if (endIndex < this.filteredProducts.length) {
+      this.addScrollTrigger();
+    }
+  }
+
+  addScrollTrigger() {
+    const triggerHtml = `
+      <div id="scroll-trigger" class="col-12 text-center py-4">
+        <div class="spinner-border text-primary spinner-border-sm" role="status">
+          <span class="visually-hidden">Загрузка...</span>
+        </div>
+        <span class="ms-2 text-muted-custom small">Подгрузка товаров...</span>
+      </div>
+    `;
+    this.grid.insertAdjacentHTML('beforeend', triggerHtml);
+    const triggerEl = document.getElementById('scroll-trigger');
+    if (this.observer && triggerEl) {
+      this.observer.observe(triggerEl);
+    }
   }
 }
 
