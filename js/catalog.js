@@ -13,6 +13,9 @@ class Catalog {
     this.itemsPerPage = 20;
     this.observer = null;
     
+    // Debounce timer
+    this.filterTimeout = null;
+
     this.init();
   }
 
@@ -33,16 +36,26 @@ class Catalog {
   }
 
   setupListeners() {
+    const debouncedFilter = () => {
+      clearTimeout(this.filterTimeout);
+      this.filterTimeout = setTimeout(() => this.applyFilters(), 150);
+    };
+
     if (this.sortSelect) {
-      this.sortSelect.addEventListener('change', () => this.applyFilters());
+      this.sortSelect.addEventListener('change', debouncedFilter);
     }
     if (this.filterForm) {
       this.filterForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        this.applyFilters();
+        debouncedFilter();
       });
       this.filterForm.addEventListener('reset', () => {
-        setTimeout(() => this.applyFilters(), 0);
+        setTimeout(debouncedFilter, 0);
+      });
+      // Add real-time input debounce
+      const inputs = this.filterForm.querySelectorAll('input, select');
+      inputs.forEach(input => {
+        input.addEventListener('input', debouncedFilter);
       });
     }
   }

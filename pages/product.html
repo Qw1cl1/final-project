@@ -197,7 +197,7 @@
             <div class="bg-card-custom border border-custom shadow-sm rounded-4 p-4">
               <h5 class="fw-bold mb-4">Характеристики</h5>
               ${specsHtml}
-              <a href="#productTabs" class="d-inline-block mt-3 text-primary fw-medium text-decoration-none" onclick="document.getElementById('desc-tab').click()">Все характеристики <i class="bi bi-chevron-right small"></i></a>
+              <a href="#productTabs" class="d-inline-block mt-3 text-primary fw-medium text-decoration-none" onclick="document.getElementById('specs-tab').click(); document.getElementById('productTabs').scrollIntoView({behavior: 'smooth', block: 'start'})">Все характеристики <i class="bi bi-chevron-right small"></i></a>
             </div>
           </div>
         </div>
@@ -209,6 +209,9 @@
               <button class="nav-link active bg-transparent text-primary fw-semibold fs-5" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab">Описание</button>
             </li>
             <li class="nav-item" role="presentation">
+              <button class="nav-link bg-transparent text-muted-custom fw-semibold fs-5" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab">Характеристики</button>
+            </li>
+            <li class="nav-item" role="presentation">
               <button class="nav-link bg-transparent text-muted-custom fw-semibold fs-5" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Отзывы (${product.reviews})</button>
             </li>
           </ul>
@@ -217,22 +220,16 @@
               <h4 class="fw-bold mb-3">Описание ${product.name}</h4>
               <p class="fs-6 lh-lg">${product.description}</p>
             </div>
+            <div class="tab-pane fade text-main pt-3" id="specs" role="tabpanel">
+              <h4 class="fw-bold mb-3">Заводские данные</h4>
+              <div class="bg-card-custom border-custom rounded-4 p-4 shadow-sm mb-4">
+                 ${specsHtml}
+              </div>
+            </div>
             <div class="tab-pane fade text-main pt-3" id="reviews" role="tabpanel">
               <div class="row g-4">
                 <div class="col-lg-8" id="reviews-list">
-                  <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm">
-                    <div class="card-body p-4">
-                      <div class="d-flex align-items-center mb-3">
-                        <div class="bg-light text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">А</div>
-                        <div>
-                          <div class="fw-bold">Алексей М.</div>
-                          <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        </div>
-                        <div class="ms-auto text-muted small">12 мая 2024</div>
-                      </div>
-                      <p class="mb-0 text-main">Отличный товар, полностью соответствует описанию. Покупкой доволен, доставка была очень быстрой!</p>
-                    </div>
-                  </div>
+                  <!-- Reviews injected by JS -->
                 </div>
                 <div class="col-lg-4">
                   <div class="card bg-card-custom border-custom shadow-sm rounded-4 sticky-top" style="top: 100px;">
@@ -341,6 +338,53 @@
           App.showToast('Ваш отзыв успешно опубликован!');
         });
       }
+
+      // Generate Random Reviews
+      const reviewNames = ["Алексей М.", "Елена В.", "Дмитрий С.", "Иван П.", "Мария К.", "Сергей Н.", "Ольга А.", "Николай Р."];
+      const reviewTexts = [
+        "Отличный товар, полностью соответствует описанию. Покупкой доволен, доставка была очень быстрой!",
+        "За свои деньги - топ. Работает без нареканий, выглядит стильно.",
+        "Качество сборки на высоте. Давно хотел купить именно эту модель.",
+        "Брал в подарок, человек остался очень доволен. Спасибо магазину за быструю доставку.",
+        "Немного сомневался перед покупкой, но товар превзошел все ожидания. Рекомендую!",
+        "Хороший аппарат, функции свои выполняет. Из минусов - маркий корпус.",
+        "Всё супер, привезли в запечатанной коробке. Гарантия есть."
+      ];
+      
+      // Predictable random based on product ID string
+      const seed = productId.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+      const reviewsCount = 2 + (seed % 4); // 2 to 5 reviews
+      
+      let generatedReviewsHtml = '';
+      for (let i = 0; i < reviewsCount; i++) {
+        const name = reviewNames[(seed + i) % reviewNames.length];
+        const text = reviewTexts[(seed + i * 2) % reviewTexts.length];
+        const initial = name.charAt(0);
+        const rating = 4 + ((seed + i) % 2); // 4 or 5 stars
+        const starsHtml = '<i class="bi bi-star-fill"></i>'.repeat(rating) + '<i class="bi bi-star"></i>'.repeat(5 - rating);
+        
+        // Random date in the past year
+        const date = new Date(Date.now() - ((seed * 1000000 + i * 864000000) % 31536000000));
+        const dateStr = date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+        
+        generatedReviewsHtml += `
+          <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-light text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">${initial}</div>
+                <div>
+                  <div class="fw-bold">${name}</div>
+                  <div class="text-warning small">${starsHtml}</div>
+                </div>
+                <div class="ms-auto text-muted small">${dateStr}</div>
+              </div>
+              <p class="mb-0 text-main">${text}</p>
+            </div>
+          </div>
+        `;
+      }
+      
+      document.getElementById('reviews-list').innerHTML = generatedReviewsHtml;
 
     });
   </script>
