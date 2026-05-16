@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru" data-theme="light">
 <head>
+  <!-- Bug #13 fix: prevent FOUC (Flash Of Unstyled/wrong theme Content) -->
+  <script>document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ElectroMarket — Премиальный магазин техники</title>
@@ -81,17 +83,17 @@
       
       <div class="col-lg-4">
         <div class="d-flex flex-column gap-4 h-100">
-          <div class="card-premium p-4 h-50 d-flex flex-column justify-content-between animate-fade-in-up" style="background: #1e293b; color: white; transition-delay: 0.1s;">
+          <div class="card-premium p-4 h-50 d-flex flex-column justify-content-between animate-fade-in-up hero-card-dark" style="transition-delay: 0.1s;">
             <div>
-              <h3 class="fw-bold mb-2">PS5 Slim</h3>
-              <p class="text-muted small">В наличии и готова к игре</p>
+              <h3 class="fw-bold mb-2" style="color:#fff;">PS5 Slim</h3>
+              <p class="small" style="color:#94a3b8;">В наличии и готова к игре</p>
             </div>
             <div class="d-flex justify-content-between align-items-end">
-              <span class="fs-4 fw-bold text-accent">54 990 ₽</span>
+              <span class="fs-4 fw-bold" style="color:var(--accent);">54 990 ₽</span>
               <a href="pages/product.html?id=p17" class="btn btn-primary btn-sm rounded-circle p-2"><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
-          <div class="card-premium p-4 h-50 d-flex flex-column justify-content-between animate-fade-in-up" style="background: #fff; border: 2px solid var(--primary-light); transition-delay: 0.2s;">
+          <div class="card-premium p-4 h-50 d-flex flex-column justify-content-between animate-fade-in-up hero-card-light" style="transition-delay: 0.2s;">
             <div>
               <h3 class="fw-bold mb-2 text-main">iPhone 15 Pro</h3>
               <p class="text-muted small">Титан. Мощь. Камера.</p>
@@ -251,26 +253,18 @@
   <script src="js/app.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', async () => {
-      // 1. Initialize App
-      await App.init();
-      
       const grid = document.getElementById('popular-products-grid');
-      
-      // 2. Render Popular Products Function
-      const renderPopular = () => {
-        if (Store.products.length > 0) {
-          const hits = Store.products.filter(p => p.isPopular).slice(0, 4);
-          grid.innerHTML = hits.map(p => App.generateProductCard(p)).join('');
-        } else {
-          grid.innerHTML = '<div class="col-12 text-center py-5"><h3 class="text-muted">Товары временно недоступны</h3></div>';
-        }
-      };
 
-      // 3. Initial Render
-      renderPopular();
-      
-      // 4. Listen for re-renders
-      document.addEventListener('appReady', renderPopular);
+      // Bug #2 fix: wait for App.init() to complete (products loaded),
+      // then render immediately — no race condition with appReady event
+      await App.init();
+
+      if (Store.products.length > 0) {
+        const hits = Store.products.filter(p => p.isPopular).slice(0, 4);
+        grid.innerHTML = hits.map(p => App.generateProductCard(p)).join('');
+      } else {
+        grid.innerHTML = '<div class="col-12 text-center py-5"><div class="text-muted"><i class="bi bi-wifi-off fs-1 d-block mb-3"></i>Запустите сервер: <code>python3 -m http.server 8000</code></div></div>';
+      }
     });
   </script>
 </body>

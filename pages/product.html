@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru" data-theme="light">
 <head>
+  <script>document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Детали товара — ElectroMarket</title>
@@ -64,12 +65,15 @@
       await App.init();
       const container = document.getElementById('product-container');
       const productId = new URLSearchParams(window.location.search).get('id');
-      
+
       const product = Store.products.find(p => p.id === productId);
       if (!product) {
-        container.innerHTML = `<div class="text-center py-10"><h2 class="text-muted">Товар не найден</h2><a href="../index.html" class="btn btn-primary mt-4">На главную</a></div>`;
+        container.innerHTML = `<div class="text-center py-10"><div class="bg-primary-light text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-5" style="width:100px;height:100px;"><i class="bi bi-box-seam fs-1"></i></div><h2 class="fw-800 mb-3">Товар не найден</h2><p class="text-muted mb-5">Возможно, он был удален или перемещен.</p><a href="../index.html" class="btn btn-primary px-6 py-3">На главную</a></div>`;
         return;
       }
+
+      // Bug #10 fix: update page title dynamically
+      document.title = `${product.name} — ElectroMarket`;
 
       // Track Recently Viewed
       let recent = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
@@ -77,12 +81,12 @@
       localStorage.setItem('recentlyViewed', JSON.stringify(recent));
 
       const isFav = Store.favorites.includes(product.id);
-      
+
       container.innerHTML = `
         <nav aria-label="breadcrumb" class="mb-5 animate-fade-in-up">
           <ol class="breadcrumb m-0">
-            <li class="breadcrumb-item"><a href="../index.html" class="text-muted">Главная</a></li>
-            <li class="breadcrumb-item"><a href="catalog.html?cat=${product.category}" class="text-muted">${product.category}</a></li>
+            <li class="breadcrumb-item"><a href="../index.html" class="text-muted text-decoration-none">Главная</a></li>
+            <li class="breadcrumb-item"><a href="catalog.html?cat=${encodeURIComponent(product.category)}" class="text-muted text-decoration-none">${product.category}</a></li>
             <li class="breadcrumb-item active fw-bold">${product.name}</li>
           </ol>
         </nav>
@@ -90,7 +94,7 @@
         <div class="row g-5">
           <div class="col-lg-7 animate-fade-in-up">
             <div class="card-premium glass p-5 text-center position-relative d-flex align-items-center justify-content-center" style="min-height: 500px;">
-              <button class="fav-btn-float ${isFav ? 'active' : ''}" data-id="${product.id}" style="top: 2rem; right: 2rem;">
+              <button class="fav-btn-float ${isFav ? 'active' : ''}" data-id="${product.id}" style="top: 2rem; right: 2rem;" aria-label="В избранное">
                 <i class="bi ${isFav ? 'bi-heart-fill' : 'bi-heart'}"></i>
               </button>
               <img src="${product.image}" class="img-fluid" style="max-height: 400px; object-fit: contain;" alt="${product.name}">
@@ -98,32 +102,35 @@
           </div>
 
           <div class="col-lg-5 animate-fade-in-up" style="animation-delay: 0.1s;">
-            <div class="card-premium p-5 mb-4 shadow-lg border-primary-light">
-              <div class="mb-4 d-flex align-items-center gap-3">
+            <div class="card-premium p-5 mb-4 shadow-lg">
+              <div class="mb-4 d-flex align-items-center gap-3 flex-wrap">
                 <span class="badge bg-primary-light text-primary px-3 py-2 fw-bold">${product.category}</span>
                 <span class="text-warning"><i class="bi bi-star-fill"></i> ${product.rating}</span>
                 <span class="text-muted small">(${product.reviews} отзывов)</span>
+                ${product.isNew ? '<span class="badge bg-success">NEW</span>' : ''}
               </div>
-              
+
               <h1 class="display-5 fw-800 mb-4" style="font-family: 'Outfit', sans-serif;">${product.name}</h1>
-              
+
               <div class="mb-5">
                 ${product.oldPrice ? `<div class="text-muted text-decoration-line-through fs-5">${App.formatPrice(product.oldPrice)}</div>` : ''}
                 <div class="display-4 fw-800 text-primary">${App.formatPrice(product.price)}</div>
+                ${product.oldPrice ? `<div class="badge bg-danger mt-2">Скидка ${Math.round((1 - product.price/product.oldPrice)*100)}%</div>` : ''}
               </div>
 
               <div class="d-grid gap-3">
                 <button class="btn btn-primary btn-lg py-3 fs-5 btn-add-cart" data-id="${product.id}">
                   <i class="bi bi-bag-plus-fill me-2"></i> Добавить в корзину
                 </button>
-                <button class="btn btn-light btn-lg py-3 fs-5">
+                <a href="cart.html" class="btn btn-light btn-lg py-3 fs-5">
                   Купить в 1 клик
-                </button>
+                </a>
               </div>
 
-              <div class="mt-5 p-4 bg-body rounded-xl border d-flex flex-column gap-3 small">
+              <div class="mt-5 p-4 rounded-xl border d-flex flex-column gap-3 small" style="background: var(--bg-body);">
                 <div class="d-flex align-items-center gap-3"><i class="bi bi-truck text-primary fs-4"></i> <span>Доставка: <b>Завтра</b> (Бесплатно)</span></div>
                 <div class="d-flex align-items-center gap-3"><i class="bi bi-shield-check text-success fs-4"></i> <span>Гарантия: <b>24 месяца</b></span></div>
+                <div class="d-flex align-items-center gap-3"><i class="bi bi-arrow-counterclockwise text-warning fs-4"></i> <span>Возврат: <b>14 дней</b></span></div>
               </div>
             </div>
           </div>
@@ -135,9 +142,9 @@
             <div class="col-lg-8">
               <div class="card-premium p-5 glass mb-5">
                 <h4 class="fw-bold mb-4">Описание</h4>
-                <p class="text-muted lh-lg fs-5">${product.description || 'Описание временно отсутствует.'}</p>
+                <p class="text-muted lh-lg fs-5">${product.description || 'Премиальный продукт от ведущего производителя. Сочетает в себе инновационные технологии и безупречное качество сборки.'}</p>
               </div>
-              
+
               <div id="reviews-section">
                 <div class="d-flex align-items-center justify-content-between mb-5">
                   <h4 class="fw-bold m-0">Отзывы покупателей</h4>
@@ -148,10 +155,10 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="col-lg-4">
               <div class="card-premium p-5 glass position-sticky" style="top: 120px;" id="review-form-card">
-                <h4 class="fw-bold mb-4 text-gradient">Ваше мнение</h4>
+                <h4 class="fw-bold mb-4">Ваше мнение</h4>
                 <form id="review-form">
                   <div class="mb-4">
                     <label class="form-label small fw-bold">Оценка</label>
@@ -162,14 +169,15 @@
                       <i class="bi bi-star cursor-pointer" data-v="4"></i>
                       <i class="bi bi-star cursor-pointer" data-v="5"></i>
                     </div>
+                    <input type="hidden" id="selected-rating" value="0">
                   </div>
                   <div class="mb-4">
-                    <input type="text" class="form-control bg-body border-0 p-3 rounded-lg" id="rev-name" placeholder="Ваше имя" required>
+                    <input type="text" class="form-control border-0 p-3 rounded-lg" id="rev-name" placeholder="Ваше имя" required style="background: var(--bg-body);">
                   </div>
                   <div class="mb-4">
-                    <textarea class="form-control bg-body border-0 p-3 rounded-lg" id="rev-text" rows="4" placeholder="Поделитесь впечатлениями..." required></textarea>
+                    <textarea class="form-control border-0 p-3 rounded-lg" id="rev-text" rows="4" placeholder="Поделитесь впечатлениями..." required style="background: var(--bg-body);"></textarea>
                   </div>
-                  <button class="btn btn-primary w-100 py-3">Опубликовать</button>
+                  <button class="btn btn-primary w-100 py-3" type="submit">Опубликовать</button>
                 </form>
               </div>
             </div>
@@ -177,43 +185,99 @@
         </div>
       `;
 
-      // Mock Reviews Logic
+      // Bug #11 fix: diverse dates for reviews
       const renderReviews = () => {
         const list = document.getElementById('reviews-list');
-        const names = ["Алексей", "Мария", "Дмитрий", "Елена"];
-        const texts = ["Шикарный аппарат!", "Пользуюсь неделю, всё устраивает.", "Лучшее вложение денег в этом году.", "Доставили быстро, упаковка целая."];
-        
-        list.innerHTML = names.map((n, i) => `
+        const reviews = [
+          { name: "Алексей", text: "Шикарный аппарат! Работает идеально, очень доволен покупкой.", date: "18.04.2024", stars: 5 },
+          { name: "Мария", text: "Пользуюсь неделю — всё устраивает. Доставили быстро.", date: "02.05.2024", stars: 5 },
+          { name: "Дмитрий", text: "Лучшее вложение денег в этом году. Рекомендую всем!", date: "09.05.2024", stars: 4 },
+          { name: "Елена", text: "Упаковка целая, товар соответствует описанию. Отличный продавец.", date: "14.05.2024", stars: 5 }
+        ];
+
+        list.innerHTML = reviews.map(r => `
           <div class="card-premium p-4 glass">
-            <div class="d-flex justify-content-between mb-3">
+            <div class="d-flex justify-content-between mb-3 align-items-start">
               <div class="d-flex align-items-center gap-3">
-                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px;">${n[0]}</div>
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold flex-shrink-0" style="width: 40px; height: 40px;">${r.name[0]}</div>
                 <div>
-                  <div class="fw-bold text-main">${n}</div>
-                  <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                  <div class="fw-bold text-main">${r.name}</div>
+                  <div class="text-warning small">${'<i class="bi bi-star-fill"></i>'.repeat(r.stars)}${'<i class="bi bi-star"></i>'.repeat(5 - r.stars)}</div>
                 </div>
               </div>
-              <span class="text-muted small">12.05.2024</span>
+              <span class="text-muted small flex-shrink-0">${r.date}</span>
             </div>
-            <p class="text-muted m-0">${texts[i]}</p>
+            <p class="text-muted m-0">${r.text}</p>
           </div>
         `).join('');
       };
-      
+
       renderReviews();
 
-      // Handle Stars
+      // Bug #11 fix: proper numeric comparison for star rating
+      let selectedRating = 0;
       document.querySelectorAll('#star-rating i').forEach(star => {
-        star.addEventListener('click', (e) => {
-          const v = e.target.dataset.v;
+        star.style.cursor = 'pointer';
+        star.addEventListener('mouseenter', (e) => {
+          const v = parseInt(e.target.dataset.v);
           document.querySelectorAll('#star-rating i').forEach(s => {
-            s.classList.toggle('bi-star-fill', s.dataset.v <= v);
-            s.classList.toggle('bi-star', s.dataset.v > v);
+            const sv = parseInt(s.dataset.v);
+            s.className = sv <= v ? 'bi bi-star-fill' : 'bi bi-star';
           });
         });
+        star.addEventListener('mouseleave', () => {
+          document.querySelectorAll('#star-rating i').forEach(s => {
+            const sv = parseInt(s.dataset.v);
+            s.className = sv <= selectedRating ? 'bi bi-star-fill' : 'bi bi-star';
+          });
+        });
+        star.addEventListener('click', (e) => {
+          selectedRating = parseInt(e.target.dataset.v);
+          document.getElementById('selected-rating').value = selectedRating;
+        });
+      });
+
+      // Bug #3 fix: review form submit handler
+      document.getElementById('review-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('rev-name').value.trim();
+        const text = document.getElementById('rev-text').value.trim();
+        const rating = parseInt(document.getElementById('selected-rating').value) || 5;
+
+        if (!name || !text) {
+          App.showNotification('Заполните имя и текст отзыва', 'danger');
+          return;
+        }
+
+        const list = document.getElementById('reviews-list');
+        const today = new Date().toLocaleDateString('ru-RU');
+        const newReview = `
+          <div class="card-premium p-4 glass animate-fade-in-up">
+            <div class="d-flex justify-content-between mb-3 align-items-start">
+              <div class="d-flex align-items-center gap-3">
+                <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center fw-bold flex-shrink-0" style="width: 40px; height: 40px;">${name[0].toUpperCase()}</div>
+                <div>
+                  <div class="fw-bold text-main">${name}</div>
+                  <div class="text-warning small">${'<i class="bi bi-star-fill"></i>'.repeat(rating)}${'<i class="bi bi-star"></i>'.repeat(5 - rating)}</div>
+                </div>
+              </div>
+              <span class="text-muted small">${today}</span>
+            </div>
+            <p class="text-muted m-0">${text}</p>
+          </div>
+        `;
+        list.insertAdjacentHTML('afterbegin', newReview);
+
+        e.target.reset();
+        selectedRating = 0;
+        document.querySelectorAll('#star-rating i').forEach(s => s.className = 'bi bi-star');
+        document.getElementById('selected-rating').value = 0;
+        App.showNotification('Спасибо! Ваш отзыв опубликован.', 'success');
+        document.getElementById('reviews-section').scrollIntoView({ behavior: 'smooth' });
       });
     });
   </script>
 </body>
 </html>
+
 

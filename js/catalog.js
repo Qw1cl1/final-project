@@ -26,7 +26,7 @@ class Catalog {
 
   async init() {
     await App.init();
-    
+
     // Set UI category titles
     if (this.activeCategory !== 'all') {
       const titleEl = document.getElementById('catalog-title');
@@ -37,10 +37,8 @@ class Catalog {
 
     this.setupListeners();
     this.setupIntersectionObserver();
+    // Bug #15 fix: applyFilters called once here, not twice (removed appReady listener)
     this.applyFilters();
-    
-    // Listen for global store updates
-    document.addEventListener('appReady', () => this.applyFilters());
   }
 
   setupListeners() {

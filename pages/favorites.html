@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru" data-theme="light">
 <head>
+  <script>document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Избранное — ElectroMarket</title>
@@ -88,8 +89,8 @@
           return;
         }
 
-        grid.style.display = 'flex';
-        emptyState.style.display = 'none';
+        grid.style.display = '';
+        grid.className = 'row g-4';
         
         const favProducts = Store.products.filter(p => Store.favorites.includes(p.id));
         grid.innerHTML = favProducts.map(p => App.generateProductCard(p)).join('');
