@@ -3,101 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Избранное - DNS</title>
+  <title>Избранное — ElectroMarket</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
-  <!-- Top Bar -->
-  <div class="top-bar py-1 d-none d-lg-block">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div>
-        <i class="bi bi-geo-alt me-1"></i> г. Москва
-        <span class="mx-3 text-muted">|</span>
-        <a href="#" class="text-muted-custom">Магазины: 182</a>
-        <span class="mx-3 text-muted">|</span>
-        <a href="#" class="text-muted-custom">Покупателям</a>
-        <span class="mx-3 text-muted">|</span>
-        <a href="#" class="text-muted-custom">Юридическим лицам</a>
-      </div>
-      <div class="d-flex align-items-center">
-        <span class="fw-semibold">8-800-77-07-999</span>
-        <span class="ms-2 text-muted small">(с 03:00 до 22:00)</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Header -->
-  <header class="py-3 shadow-sm bg-card-custom sticky-top">
-    <div class="container d-flex align-items-center justify-content-between gap-3 gap-md-4">
-      <button class="btn btn-light d-lg-none border-custom bg-card-custom text-muted-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-        <i class="bi bi-list fs-5"></i>
-      </button>
-      <a href="../index.html" class="d-flex align-items-center text-primary fw-bold fs-2 text-decoration-none" style="letter-spacing: -2px; font-weight: 800 !important;">
-        DNS
+  <!-- Premium Header -->
+  <header class="header-main glass shadow-sm">
+    <div class="container h-100 d-flex align-items-center justify-content-between gap-4">
+      <a href="../index.html" class="d-flex align-items-center text-primary text-decoration-none" style="font-family: 'Outfit', sans-serif;">
+        <i class="bi bi-lightning-charge-fill fs-2 me-2"></i>
+        <span class="fs-3 fw-800 tracking-tighter">ELECTRO</span>
       </a>
-      <div class="dropdown d-none d-lg-block">
-        <button class="btn btn-primary d-flex align-items-center gap-2 fw-semibold px-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="bi bi-grid-fill"></i> Каталог
-        </button>
-        <ul class="dropdown-menu shadow-md border-custom bg-card-custom w-100 p-3" style="min-width: 320px;">
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html"><i class="bi bi-list-ul me-2 text-primary"></i> Все категории</a></li>
-        </ul>
+      <div class="search-container d-none d-md-block">
+        <i class="bi bi-search search-icon"></i>
+        <input type="text" class="search-input-premium" placeholder="Поиск товаров...">
       </div>
-      <form id="search-form" class="flex-grow-1 position-relative d-none d-md-flex">
-        <input type="text" id="search-input" class="form-control search-input bg-card-custom border-custom text-muted-custom" placeholder="Поиск по сайту...">
-        <button type="submit" class="btn btn-primary search-btn px-3"><i class="bi bi-search"></i></button>
-      </form>
-      <div class="d-flex align-items-center gap-3 gap-md-4 ms-auto ms-md-0">
-        <button id="theme-toggle" class="btn btn-link nav-icon p-0 border-0 text-muted-custom" title="Сменить тему"><i class="bi bi-moon"></i></button>
-        <a href="profile.html" class="nav-icon text-center d-none d-sm-flex flex-column align-items-center text-muted-custom text-decoration-none">
-          <i class="bi bi-person fs-5"></i><span style="font-size: 0.7rem;">Войти</span>
+      <div class="d-flex align-items-center gap-2 gap-md-4">
+        <button id="theme-toggle" class="btn btn-light rounded-circle p-2" style="width: 42px; height: 42px;">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+        <a href="favorites.html" class="nav-link-custom d-flex flex-column align-items-center position-relative active">
+          <i class="bi bi-heart-fill fs-5"></i>
+          <span id="fav-badge" class="badge bg-danger position-absolute top-0 start-100 translate-middle-x rounded-pill" style="display:none; font-size: 0.65rem;">0</span>
         </a>
-        <a href="favorites.html" class="nav-icon text-center position-relative d-flex flex-column align-items-center text-muted-custom text-decoration-none">
-          <i class="bi bi-heart fs-5"></i><span style="font-size: 0.7rem;">Избранное</span>
-          <span id="fav-badge" class="nav-badge" style="display:none;">0</span>
-        </a>
-        <a href="cart.html" class="nav-icon text-center position-relative d-flex flex-column align-items-center text-muted-custom text-decoration-none">
-          <i class="bi bi-cart3 fs-5"></i><span style="font-size: 0.7rem;">Корзина</span>
-          <span id="cart-badge" class="nav-badge" style="display:none;">0</span>
+        <a href="cart.html" class="nav-link-custom d-flex flex-column align-items-center position-relative">
+          <i class="bi bi-bag fs-5"></i>
+          <span id="cart-badge" class="badge bg-primary position-absolute top-0 start-100 translate-middle-x rounded-pill" style="display:none; font-size: 0.65rem;">0</span>
         </a>
       </div>
     </div>
   </header>
 
-  <!-- Mobile Offcanvas Menu -->
-  <div class="offcanvas offcanvas-start bg-card-custom text-muted-custom" tabindex="-1" id="mobileMenu">
-    <div class="offcanvas-header border-bottom border-custom">
-      <h5 class="offcanvas-title text-primary fw-bold" style="letter-spacing: -2px;">DNS</h5>
-      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  <main class="container py-10 flex-grow-1">
+    <div class="d-flex align-items-center justify-content-between mb-8">
+      <h1 class="h1 fw-800 m-0" style="font-family: 'Outfit', sans-serif;">Избранное</h1>
+      <span class="text-muted" id="fav-summary">0 товаров</span>
     </div>
-    <div class="offcanvas-body p-0">
-      <div class="list-group list-group-flush">
-        <a href="catalog.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom fw-semibold"><i class="bi bi-grid-fill me-2 text-primary"></i> Каталог товаров</a>
-        <a href="profile.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-person me-2"></i> Личный кабинет</a>
-        <a href="favorites.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-heart me-2"></i> Избранное</a>
-        <a href="#" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-telephone me-2"></i> 8-800-77-07-999</a>
+
+    <div id="favorites-grid" class="row g-4">
+      <!-- Skeletons -->
+      <div class="col-lg-3 col-md-6"><div class="card-premium skeleton" style="height: 400px;"></div></div>
+      <div class="col-lg-3 col-md-6"><div class="card-premium skeleton" style="height: 400px;"></div></div>
+      <div class="col-lg-3 col-md-6"><div class="card-premium skeleton" style="height: 400px;"></div></div>
+      <div class="col-lg-3 col-md-6"><div class="card-premium skeleton" style="height: 400px;"></div></div>
+    </div>
+
+    <!-- Empty State -->
+    <div id="empty-fav" class="card-premium glass p-10 text-center animate-fade-in-up" style="display: none;">
+      <div class="bg-primary-light text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-5" style="width: 100px; height: 100px;">
+        <i class="bi bi-heart fs-1"></i>
       </div>
+      <h2 class="fw-800 mb-3">Список желаний пуст</h2>
+      <p class="text-muted mb-5 max-w-sm mx-auto">Сохраняйте товары, которые вам понравились, чтобы вернуться к ним позже.</p>
+      <a href="../index.html" class="btn btn-primary btn-lg px-8">На главную</a>
     </div>
-  </div>
-
-  <main class="container py-4">
-    <h2 class="fw-bold mb-4">Избранное</h2>
-
-    <div id="favorites-grid" class="row g-3 g-md-4">
-      <div class="col-12 text-center py-5">
-        <div class="spinner-border text-primary" role="status"></div>
-      </div>
-    </div>
-
   </main>
 
-  <footer class="mt-auto border-top border-custom bg-card-custom">
-    <div class="container text-center pt-4 pb-4">
-      <p class="text-muted-custom mb-0 small">&copy; 2002—2024 Компания DNS. Все права защищены.</p>
+  <footer class="bg-card py-10 border-top mt-10">
+    <div class="container text-center text-muted small">
+      &copy; 2024 ElectroMarket. Все права защищены.
     </div>
   </footer>
 
@@ -107,34 +77,31 @@
     document.addEventListener('DOMContentLoaded', async () => {
       await App.init();
       const grid = document.getElementById('favorites-grid');
+      const emptyState = document.getElementById('empty-fav');
+      const summary = document.getElementById('fav-summary');
       
       const render = () => {
-        if (App.favorites.length === 0) {
-          grid.innerHTML = `
-            <div class="col-12 text-center py-5 bg-card-custom border-custom rounded-4 shadow-sm">
-              <i class="bi bi-heart fs-1 text-muted mb-3 d-block"></i>
-              <h4 class="fw-bold">Список избранного пуст</h4>
-              <p class="text-muted mb-4">Добавляйте товары в избранное, чтобы следить за изменением их цен и не потерять.</p>
-              <a href="catalog.html" class="btn btn-primary px-4 fw-medium">Перейти в каталог</a>
-            </div>
-          `;
+        if (Store.favorites.length === 0) {
+          grid.style.display = 'none';
+          emptyState.style.display = 'block';
+          summary.textContent = '0 товаров';
           return;
         }
 
-        const favProducts = App.products.filter(p => App.favorites.includes(p.id));
-        grid.innerHTML = favProducts.map(p => App.generateProductCard(p, '../')).join('');
+        grid.style.display = 'flex';
+        emptyState.style.display = 'none';
+        
+        const favProducts = Store.products.filter(p => Store.favorites.includes(p.id));
+        grid.innerHTML = favProducts.map(p => App.generateProductCard(p)).join('');
+        summary.textContent = `${favProducts.length} товаров`;
       };
 
       render();
 
-      // Re-render when an item is removed from favorites
-      document.body.addEventListener('click', (e) => {
-        const favBtn = e.target.closest('.product-fav-btn');
-        if (favBtn) {
-          setTimeout(render, 50); // slight delay to allow App to update state
-        }
-      });
+      // Listen for changes
+      document.addEventListener('favoritesUpdated', render);
     });
   </script>
 </body>
 </html>
+

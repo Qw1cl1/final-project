@@ -3,105 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Товар - DNS</title>
+  <title>Детали товара — ElectroMarket</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-  <!-- Top Bar -->
-  <div class="top-bar py-1 d-none d-lg-block">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div>
-        <i class="bi bi-geo-alt me-1"></i> г. Москва
-        <span class="mx-3 text-muted">|</span>
-        <a href="#" class="text-muted-custom">Магазины: 182</a>
-        <span class="mx-3 text-muted">|</span>
-        <a href="#" class="text-muted-custom">Покупателям</a>
-        <span class="mx-3 text-muted">|</span>
-        <a href="#" class="text-muted-custom">Юридическим лицам</a>
-      </div>
-      <div class="d-flex align-items-center">
-        <span class="fw-semibold">8-800-77-07-999</span>
-        <span class="ms-2 text-muted small">(с 03:00 до 22:00)</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Header -->
-  <header class="py-3 shadow-sm bg-card-custom sticky-top">
-    <div class="container d-flex align-items-center justify-content-between gap-3 gap-md-4">
-      <button class="btn btn-light d-lg-none border-custom bg-card-custom text-muted-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-        <i class="bi bi-list fs-5"></i>
-      </button>
-      <a href="../index.html" class="d-flex align-items-center text-primary fw-bold fs-2 text-decoration-none" style="letter-spacing: -2px; font-weight: 800 !important;">
-        DNS
+  <!-- Premium Header (Same as Index) -->
+  <header class="header-main glass shadow-sm">
+    <div class="container h-100 d-flex align-items-center justify-content-between gap-4">
+      <a href="../index.html" class="d-flex align-items-center text-primary text-decoration-none" style="font-family: 'Outfit', sans-serif;">
+        <i class="bi bi-lightning-charge-fill fs-2 me-2"></i>
+        <span class="fs-3 fw-800 tracking-tighter">ELECTRO</span>
       </a>
-      <div class="dropdown d-none d-lg-block">
-        <button class="btn btn-primary d-flex align-items-center gap-2 fw-semibold px-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="bi bi-grid-fill"></i> Каталог
-        </button>
-        <ul class="dropdown-menu shadow-md border-custom bg-card-custom w-100 p-3" style="min-width: 320px;">
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Смартфоны"><i class="bi bi-phone me-2 text-primary"></i> Смартфоны и гаджеты</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Ноутбуки"><i class="bi bi-laptop me-2 text-primary"></i> Ноутбуки и компьютеры</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Комплектующие"><i class="bi bi-pc-display me-2 text-primary"></i> Комплектующие для ПК</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Телевизоры"><i class="bi bi-tv me-2 text-primary"></i> ТВ, консоли и аудио</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Консоли"><i class="bi bi-controller me-2 text-primary"></i> Игры и приставки</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Периферия"><i class="bi bi-mouse me-2 text-primary"></i> Периферия и аксессуары</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Умный дом"><i class="bi bi-house-gear me-2 text-primary"></i> Умный дом и безопасность</a></li>
-          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Бытовая техника"><i class="bi bi-cup-hot me-2 text-primary"></i> Бытовая техника</a></li>
-          <li><hr class="dropdown-divider border-custom"></li>
-          <li><a class="dropdown-item py-2 fw-bold text-primary" href="catalog.html"><i class="bi bi-list-ul me-2"></i> Все категории</a></li>
-        </ul>
+      <div class="search-container d-none d-md-block">
+        <i class="bi bi-search search-icon"></i>
+        <input type="text" class="search-input-premium" placeholder="Поиск товаров...">
       </div>
-      <form id="search-form" class="flex-grow-1 position-relative d-none d-md-flex">
-        <input type="text" id="search-input" class="form-control search-input bg-card-custom border-custom text-muted-custom" placeholder="Поиск по сайту...">
-        <button type="submit" class="btn btn-primary search-btn px-3"><i class="bi bi-search"></i></button>
-      </form>
-      <div class="d-flex align-items-center gap-3 gap-md-4 ms-auto ms-md-0">
-        <button id="theme-toggle" class="btn btn-link nav-icon p-0 border-0 text-muted-custom" title="Сменить тему"><i class="bi bi-moon"></i></button>
-        <a href="profile.html" class="nav-icon text-center d-none d-sm-flex flex-column align-items-center text-muted-custom text-decoration-none">
-          <i class="bi bi-person fs-5"></i><span style="font-size: 0.7rem;">Войти</span>
+      <div class="d-flex align-items-center gap-2 gap-md-4">
+        <button id="theme-toggle" class="btn btn-light rounded-circle p-2" style="width: 42px; height: 42px;">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+        <a href="favorites.html" class="nav-link-custom d-flex flex-column align-items-center position-relative">
+          <i class="bi bi-heart fs-5"></i>
+          <span id="fav-badge" class="badge bg-danger position-absolute top-0 start-100 translate-middle-x rounded-pill" style="display:none; font-size: 0.65rem;">0</span>
         </a>
-        <a href="favorites.html" class="nav-icon text-center position-relative d-flex flex-column align-items-center text-muted-custom text-decoration-none">
-          <i class="bi bi-heart fs-5"></i><span style="font-size: 0.7rem;">Избранное</span>
-          <span id="fav-badge" class="nav-badge" style="display:none;">0</span>
-        </a>
-        <a href="cart.html" class="nav-icon text-center position-relative d-flex flex-column align-items-center text-muted-custom text-decoration-none">
-          <i class="bi bi-cart3 fs-5"></i><span style="font-size: 0.7rem;">Корзина</span>
-          <span id="cart-badge" class="nav-badge" style="display:none;">0</span>
+        <a href="cart.html" class="nav-link-custom d-flex flex-column align-items-center position-relative">
+          <i class="bi bi-bag fs-5"></i>
+          <span id="cart-badge" class="badge bg-primary position-absolute top-0 start-100 translate-middle-x rounded-pill" style="display:none; font-size: 0.65rem;">0</span>
         </a>
       </div>
     </div>
   </header>
 
-  <!-- Mobile Offcanvas Menu -->
-  <div class="offcanvas offcanvas-start bg-card-custom text-muted-custom" tabindex="-1" id="mobileMenu">
-    <div class="offcanvas-header border-bottom border-custom">
-      <h5 class="offcanvas-title text-primary fw-bold" style="letter-spacing: -2px;">DNS</h5>
-      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body p-0">
-      <div class="list-group list-group-flush">
-        <a href="catalog.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom fw-semibold"><i class="bi bi-grid-fill me-2 text-primary"></i> Каталог товаров</a>
-        <a href="profile.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-person me-2"></i> Личный кабинет</a>
-        <a href="favorites.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-heart me-2"></i> Избранное</a>
-        <a href="#" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-telephone me-2"></i> 8-800-77-07-999</a>
+  <main class="container py-5" id="product-container">
+    <!-- Skeleton Loading -->
+    <div class="row g-5">
+      <div class="col-lg-7"><div class="card-premium skeleton" style="height: 500px;"></div></div>
+      <div class="col-lg-5">
+        <div class="card-premium skeleton mb-4" style="height: 200px;"></div>
+        <div class="card-premium skeleton" style="height: 300px;"></div>
       </div>
-    </div>
-  </div>
-
-  <main class="container py-4" id="product-container">
-    <div class="text-center py-5">
-      <div class="spinner-border text-primary" role="status"></div>
     </div>
   </main>
 
-  <footer class="mt-5 border-top border-custom bg-card-custom">
-    <div class="container text-center pt-4 pb-4">
-      <p class="text-muted-custom mb-0 small">&copy; 2002—2024 Компания DNS. Все права защищены.</p>
+  <footer class="bg-card py-10 border-top mt-10">
+    <div class="container text-center text-muted small">
+      &copy; 2024 ElectroMarket. Все права защищены.
     </div>
   </footer>
 
@@ -113,280 +65,155 @@
       const container = document.getElementById('product-container');
       const productId = new URLSearchParams(window.location.search).get('id');
       
-      if (!productId) {
-        container.innerHTML = '<div class="alert alert-danger">ID товара не указан.</div>';
-        return;
-      }
-
-      const product = App.products.find(p => p.id === productId);
+      const product = Store.products.find(p => p.id === productId);
       if (!product) {
-        container.innerHTML = '<div class="alert alert-danger">Товар не найден.</div>';
+        container.innerHTML = `<div class="text-center py-10"><h2 class="text-muted">Товар не найден</h2><a href="../index.html" class="btn btn-primary mt-4">На главную</a></div>`;
         return;
       }
 
-      // Save to Recently Viewed
-      let recentIds = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
-      recentIds = recentIds.filter(id => id !== productId); // Remove if exists
-      recentIds.unshift(productId); // Add to beginning
-      if (recentIds.length > 10) recentIds.pop(); // Keep max 10
-      localStorage.setItem('recentlyViewed', JSON.stringify(recentIds));
+      // Track Recently Viewed
+      let recent = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+      recent = [productId, ...recent.filter(id => id !== productId)].slice(0, 10);
+      localStorage.setItem('recentlyViewed', JSON.stringify(recent));
 
-      // Generate Specs HTML
-      let specsHtml = '';
-      if (product.specs) {
-        specsHtml = Object.entries(product.specs).map(([key, val]) => `
-          <div class="row border-bottom border-custom py-2">
-            <div class="col-sm-5 text-muted-custom small">${key}</div>
-            <div class="col-sm-7 fw-medium text-main small">${val}</div>
-          </div>
-        `).join('');
-      }
-
-      const isFav = App.favorites.includes(product.id);
-      const favClass = isFav ? 'active text-danger' : 'text-muted-custom';
-      const favIcon = isFav ? '<i class="bi bi-heart-fill"></i>' : '<i class="bi bi-heart"></i>';
-
+      const isFav = Store.favorites.includes(product.id);
+      
       container.innerHTML = `
-        <nav aria-label="breadcrumb" class="mb-4">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../index.html" class="text-decoration-none hover-primary text-muted-custom">Главная</a></li>
-            <li class="breadcrumb-item"><a href="catalog.html?cat=${product.category}" class="text-decoration-none hover-primary text-muted-custom">${product.category}</a></li>
-            <li class="breadcrumb-item active text-main fw-medium" aria-current="page" style="display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">${product.name}</li>
+        <nav aria-label="breadcrumb" class="mb-5 animate-fade-in-up">
+          <ol class="breadcrumb m-0">
+            <li class="breadcrumb-item"><a href="../index.html" class="text-muted">Главная</a></li>
+            <li class="breadcrumb-item"><a href="catalog.html?cat=${product.category}" class="text-muted">${product.category}</a></li>
+            <li class="breadcrumb-item active fw-bold">${product.name}</li>
           </ol>
         </nav>
 
-        <h2 class="fw-bold mb-3">${product.name}</h2>
-        <div class="d-flex flex-wrap align-items-center gap-3 mb-4 small">
-          <div class="text-warning"><i class="bi bi-star-fill"></i> ${product.rating}</div>
-          <div class="text-muted-custom hover-primary cursor-pointer">${product.reviews} отзывов</div>
-          <div class="text-muted-custom ms-auto">Код товара: ${product.id}</div>
-        </div>
-
         <div class="row g-5">
-          <!-- Images -->
-          <div class="col-lg-7">
-            <div class="bg-white border border-custom rounded-4 shadow-sm p-4 text-center position-relative mb-3 d-flex align-items-center justify-content-center" style="min-height: 450px;">
-              <button class="product-fav-btn ${favClass} border" data-id="${product.id}" style="position:absolute; top:20px; right:20px; width: 44px; height: 44px; font-size: 1.2rem; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; cursor:pointer;">
-                ${favIcon}
+          <div class="col-lg-7 animate-fade-in-up">
+            <div class="card-premium glass p-5 text-center position-relative d-flex align-items-center justify-content-center" style="min-height: 500px;">
+              <button class="fav-btn-float ${isFav ? 'active' : ''}" data-id="${product.id}" style="top: 2rem; right: 2rem;">
+                <i class="bi ${isFav ? 'bi-heart-fill' : 'bi-heart'}"></i>
               </button>
               <img src="${product.image}" class="img-fluid" style="max-height: 400px; object-fit: contain;" alt="${product.name}">
             </div>
           </div>
 
-          <!-- Info Sidebar -->
-          <div class="col-lg-5">
-            <div class="card bg-card-custom border-custom shadow-sm mb-4 rounded-4">
-              <div class="card-body p-4 p-md-5">
-                <div class="d-flex flex-column mb-4">
-                  ${product.oldPrice ? `<span class="text-muted text-decoration-line-through fs-6">${App.formatPrice(product.oldPrice)}</span>` : ''}
-                  <span class="fs-1 fw-bold lh-1 text-main">${App.formatPrice(product.price)}</span>
-                </div>
-
-                <button class="btn btn-primary btn-lg w-100 fw-bold mb-3 btn-add-cart rounded-3" data-id="${product.id}" style="height: 54px;">
-                  В корзину
-                </button>
-                
-                <div class="d-flex flex-column gap-3 text-muted-custom small mt-4">
-                  <div class="d-flex align-items-center"><i class="bi bi-box-seam fs-5 me-3 text-success"></i> В наличии в 12 магазинах</div>
-                  <div class="d-flex align-items-center"><i class="bi bi-truck fs-5 me-3 text-primary"></i> Доставка завтра — бесплатно</div>
-                  <div class="d-flex align-items-center"><i class="bi bi-shield-check fs-5 me-3 text-primary"></i> Гарантия 12 мес.</div>
-                </div>
+          <div class="col-lg-5 animate-fade-in-up" style="animation-delay: 0.1s;">
+            <div class="card-premium p-5 mb-4 shadow-lg border-primary-light">
+              <div class="mb-4 d-flex align-items-center gap-3">
+                <span class="badge bg-primary-light text-primary px-3 py-2 fw-bold">${product.category}</span>
+                <span class="text-warning"><i class="bi bi-star-fill"></i> ${product.rating}</span>
+                <span class="text-muted small">(${product.reviews} отзывов)</span>
               </div>
-            </div>
+              
+              <h1 class="display-5 fw-800 mb-4" style="font-family: 'Outfit', sans-serif;">${product.name}</h1>
+              
+              <div class="mb-5">
+                ${product.oldPrice ? `<div class="text-muted text-decoration-line-through fs-5">${App.formatPrice(product.oldPrice)}</div>` : ''}
+                <div class="display-4 fw-800 text-primary">${App.formatPrice(product.price)}</div>
+              </div>
 
-            <div class="bg-card-custom border border-custom shadow-sm rounded-4 p-4">
-              <h5 class="fw-bold mb-4">Характеристики</h5>
-              ${specsHtml}
-              <a href="#productTabs" class="d-inline-block mt-3 text-primary fw-medium text-decoration-none" onclick="document.getElementById('specs-tab').click(); document.getElementById('productTabs').scrollIntoView({behavior: 'smooth', block: 'start'})">Все характеристики <i class="bi bi-chevron-right small"></i></a>
+              <div class="d-grid gap-3">
+                <button class="btn btn-primary btn-lg py-3 fs-5 btn-add-cart" data-id="${product.id}">
+                  <i class="bi bi-bag-plus-fill me-2"></i> Добавить в корзину
+                </button>
+                <button class="btn btn-light btn-lg py-3 fs-5">
+                  Купить в 1 клик
+                </button>
+              </div>
+
+              <div class="mt-5 p-4 bg-body rounded-xl border d-flex flex-column gap-3 small">
+                <div class="d-flex align-items-center gap-3"><i class="bi bi-truck text-primary fs-4"></i> <span>Доставка: <b>Завтра</b> (Бесплатно)</span></div>
+                <div class="d-flex align-items-center gap-3"><i class="bi bi-shield-check text-success fs-4"></i> <span>Гарантия: <b>24 месяца</b></span></div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Description Tabs -->
-        <div class="mt-5 pt-3">
-          <ul class="nav nav-tabs border-custom mb-4" id="productTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active bg-transparent text-primary fw-semibold fs-5" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab">Описание</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link bg-transparent text-muted-custom fw-semibold fs-5" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab">Характеристики</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link bg-transparent text-muted-custom fw-semibold fs-5" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Отзывы (${product.reviews})</button>
-            </li>
-          </ul>
-          <div class="tab-content pb-5" id="productTabsContent">
-            <div class="tab-pane fade show active text-main pt-3" id="desc" role="tabpanel">
-              <h4 class="fw-bold mb-3">Описание ${product.name}</h4>
-              <p class="fs-6 lh-lg">${product.description}</p>
-            </div>
-            <div class="tab-pane fade text-main pt-3" id="specs" role="tabpanel">
-              <h4 class="fw-bold mb-3">Заводские данные</h4>
-              <div class="bg-card-custom border-custom rounded-4 p-4 shadow-sm mb-4">
-                 ${specsHtml}
+        <div class="mt-10 animate-fade-in-up" style="animation-delay: 0.2s;">
+          <h2 class="h1 fw-800 mb-5">О товаре</h2>
+          <div class="row g-5">
+            <div class="col-lg-8">
+              <div class="card-premium p-5 glass mb-5">
+                <h4 class="fw-bold mb-4">Описание</h4>
+                <p class="text-muted lh-lg fs-5">${product.description || 'Описание временно отсутствует.'}</p>
+              </div>
+              
+              <div id="reviews-section">
+                <div class="d-flex align-items-center justify-content-between mb-5">
+                  <h4 class="fw-bold m-0">Отзывы покупателей</h4>
+                  <button class="btn btn-light" onclick="document.getElementById('review-form-card').scrollIntoView({behavior: 'smooth'})">Написать отзыв</button>
+                </div>
+                <div id="reviews-list" class="d-flex flex-column gap-4">
+                  <!-- Reviews via JS -->
+                </div>
               </div>
             </div>
-            <div class="tab-pane fade text-main pt-3" id="reviews" role="tabpanel">
-              <div class="row g-4">
-                <div class="col-lg-8" id="reviews-list">
-                  <!-- Reviews injected by JS -->
-                </div>
-                <div class="col-lg-4">
-                  <div class="card bg-card-custom border-custom shadow-sm rounded-4 sticky-top" style="top: 100px;">
-                    <div class="card-body p-4">
-                      <h5 class="fw-bold mb-3">Оставить отзыв</h5>
-                      <form id="review-form">
-                        <div class="mb-3">
-                          <label class="form-label text-muted-custom small mb-1">Ваша оценка</label>
-                          <div class="rating-stars text-warning fs-5 cursor-pointer" id="rating-selector">
-                            <i class="bi bi-star" data-value="1"></i>
-                            <i class="bi bi-star" data-value="2"></i>
-                            <i class="bi bi-star" data-value="3"></i>
-                            <i class="bi bi-star" data-value="4"></i>
-                            <i class="bi bi-star" data-value="5"></i>
-                          </div>
-                          <input type="hidden" id="rating-val" value="0" required>
-                        </div>
-                        <div class="mb-3">
-                          <label class="form-label text-muted-custom small">Имя</label>
-                          <input type="text" class="form-control bg-card-custom border-custom text-main" id="review-name" required placeholder="Ваше имя">
-                        </div>
-                        <div class="mb-3">
-                          <label class="form-label text-muted-custom small">Достоинства</label>
-                          <input type="text" class="form-control bg-card-custom border-custom text-main" placeholder="Что вам понравилось">
-                        </div>
-                        <div class="mb-3">
-                          <label class="form-label text-muted-custom small">Недостатки</label>
-                          <input type="text" class="form-control bg-card-custom border-custom text-main" placeholder="Что можно улучшить">
-                        </div>
-                        <div class="mb-4">
-                          <label class="form-label text-muted-custom small">Комментарий</label>
-                          <textarea class="form-control bg-card-custom border-custom text-main" id="review-text" rows="3" required placeholder="Поделитесь впечатлениями"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100 fw-medium">Отправить отзыв</button>
-                      </form>
+            
+            <div class="col-lg-4">
+              <div class="card-premium p-5 glass position-sticky" style="top: 120px;" id="review-form-card">
+                <h4 class="fw-bold mb-4 text-gradient">Ваше мнение</h4>
+                <form id="review-form">
+                  <div class="mb-4">
+                    <label class="form-label small fw-bold">Оценка</label>
+                    <div class="d-flex gap-2 text-warning fs-4" id="star-rating">
+                      <i class="bi bi-star cursor-pointer" data-v="1"></i>
+                      <i class="bi bi-star cursor-pointer" data-v="2"></i>
+                      <i class="bi bi-star cursor-pointer" data-v="3"></i>
+                      <i class="bi bi-star cursor-pointer" data-v="4"></i>
+                      <i class="bi bi-star cursor-pointer" data-v="5"></i>
                     </div>
                   </div>
-                </div>
+                  <div class="mb-4">
+                    <input type="text" class="form-control bg-body border-0 p-3 rounded-lg" id="rev-name" placeholder="Ваше имя" required>
+                  </div>
+                  <div class="mb-4">
+                    <textarea class="form-control bg-body border-0 p-3 rounded-lg" id="rev-text" rows="4" placeholder="Поделитесь впечатлениями..." required></textarea>
+                  </div>
+                  <button class="btn btn-primary w-100 py-3">Опубликовать</button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       `;
-      // Handle Review Rating
-      const ratingStars = document.querySelectorAll('#rating-selector i');
-      const ratingInput = document.getElementById('rating-val');
+
+      // Mock Reviews Logic
+      const renderReviews = () => {
+        const list = document.getElementById('reviews-list');
+        const names = ["Алексей", "Мария", "Дмитрий", "Елена"];
+        const texts = ["Шикарный аппарат!", "Пользуюсь неделю, всё устраивает.", "Лучшее вложение денег в этом году.", "Доставили быстро, упаковка целая."];
+        
+        list.innerHTML = names.map((n, i) => `
+          <div class="card-premium p-4 glass">
+            <div class="d-flex justify-content-between mb-3">
+              <div class="d-flex align-items-center gap-3">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px;">${n[0]}</div>
+                <div>
+                  <div class="fw-bold text-main">${n}</div>
+                  <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                </div>
+              </div>
+              <span class="text-muted small">12.05.2024</span>
+            </div>
+            <p class="text-muted m-0">${texts[i]}</p>
+          </div>
+        `).join('');
+      };
       
-      ratingStars.forEach(star => {
+      renderReviews();
+
+      // Handle Stars
+      document.querySelectorAll('#star-rating i').forEach(star => {
         star.addEventListener('click', (e) => {
-          const val = parseInt(e.target.dataset.value);
-          ratingInput.value = val;
-          ratingStars.forEach(s => {
-            if (parseInt(s.dataset.value) <= val) {
-              s.classList.remove('bi-star');
-              s.classList.add('bi-star-fill');
-            } else {
-              s.classList.add('bi-star');
-              s.classList.remove('bi-star-fill');
-            }
+          const v = e.target.dataset.v;
+          document.querySelectorAll('#star-rating i').forEach(s => {
+            s.classList.toggle('bi-star-fill', s.dataset.v <= v);
+            s.classList.toggle('bi-star', s.dataset.v > v);
           });
         });
       });
-
-      // Handle Review Submit
-      const reviewForm = document.getElementById('review-form');
-      if (reviewForm) {
-        reviewForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const val = parseInt(ratingInput.value);
-          if (val === 0) {
-            App.showToast('Пожалуйста, поставьте оценку', 'danger');
-            return;
-          }
-          
-          const name = document.getElementById('review-name').value;
-          const text = document.getElementById('review-text').value;
-          const initial = name.charAt(0).toUpperCase();
-          const today = new Date().toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
-          
-          const starsHtml = '<i class="bi bi-star-fill"></i>'.repeat(val) + '<i class="bi bi-star"></i>'.repeat(5 - val);
-          
-          const newReview = `
-            <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm" style="animation: fadeIn 0.5s ease;">
-              <div class="card-body p-4">
-                <div class="d-flex align-items-center mb-3">
-                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">${initial}</div>
-                  <div>
-                    <div class="fw-bold">${name}</div>
-                    <div class="text-warning small">${starsHtml}</div>
-                  </div>
-                  <div class="ms-auto text-muted small">${today}</div>
-                </div>
-                <p class="mb-0 text-main">${text}</p>
-              </div>
-            </div>
-          `;
-          
-          document.getElementById('reviews-list').insertAdjacentHTML('afterbegin', newReview);
-          reviewForm.reset();
-          ratingInput.value = 0;
-          ratingStars.forEach(s => {
-            s.classList.add('bi-star');
-            s.classList.remove('bi-star-fill');
-          });
-          
-          App.showToast('Ваш отзыв успешно опубликован!');
-        });
-      }
-
-      // Generate Random Reviews
-      const reviewNames = ["Алексей М.", "Елена В.", "Дмитрий С.", "Иван П.", "Мария К.", "Сергей Н.", "Ольга А.", "Николай Р."];
-      const reviewTexts = [
-        "Отличный товар, полностью соответствует описанию. Покупкой доволен, доставка была очень быстрой!",
-        "За свои деньги - топ. Работает без нареканий, выглядит стильно.",
-        "Качество сборки на высоте. Давно хотел купить именно эту модель.",
-        "Брал в подарок, человек остался очень доволен. Спасибо магазину за быструю доставку.",
-        "Немного сомневался перед покупкой, но товар превзошел все ожидания. Рекомендую!",
-        "Хороший аппарат, функции свои выполняет. Из минусов - маркий корпус.",
-        "Всё супер, привезли в запечатанной коробке. Гарантия есть."
-      ];
-      
-      // Predictable random based on product ID string
-      const seed = productId.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-      const reviewsCount = 2 + (seed % 4); // 2 to 5 reviews
-      
-      let generatedReviewsHtml = '';
-      for (let i = 0; i < reviewsCount; i++) {
-        const name = reviewNames[(seed + i) % reviewNames.length];
-        const text = reviewTexts[(seed + i * 2) % reviewTexts.length];
-        const initial = name.charAt(0);
-        const rating = 4 + ((seed + i) % 2); // 4 or 5 stars
-        const starsHtml = '<i class="bi bi-star-fill"></i>'.repeat(rating) + '<i class="bi bi-star"></i>'.repeat(5 - rating);
-        
-        // Random date in the past year
-        const date = new Date(Date.now() - ((seed * 1000000 + i * 864000000) % 31536000000));
-        const dateStr = date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
-        
-        generatedReviewsHtml += `
-          <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm">
-            <div class="card-body p-4">
-              <div class="d-flex align-items-center mb-3">
-                <div class="bg-light text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">${initial}</div>
-                <div>
-                  <div class="fw-bold">${name}</div>
-                  <div class="text-warning small">${starsHtml}</div>
-                </div>
-                <div class="ms-auto text-muted small">${dateStr}</div>
-              </div>
-              <p class="mb-0 text-main">${text}</p>
-            </div>
-          </div>
-        `;
-      }
-      
-      document.getElementById('reviews-list').innerHTML = generatedReviewsHtml;
-
     });
   </script>
 </body>
 </html>
+
