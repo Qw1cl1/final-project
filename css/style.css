@@ -132,21 +132,21 @@ a {
   box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.39);
 }
 
+.btn {
+  border-radius: var(--radius-lg);
+  font-weight: 600;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
 .btn-primary:hover {
-  background-color: var(--primary-hover);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.23);
-}
-
-.btn-light {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border);
-  color: var(--text-main);
-}
-
-.btn-light:hover {
-  background-color: var(--bg-body);
-  border-color: var(--primary);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+  transform: translateY(-2px);
 }
 
 /* Card Styles */
@@ -159,9 +159,26 @@ a {
 }
 
 .card-premium:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-xl);
-  border-color: var(--primary-light);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  border-color: var(--primary);
+}
+
+.card-premium::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+  transform: skewX(-25deg);
+  transition: 0.75s;
+  pointer-events: none;
+}
+
+.card-premium:hover::before {
+  left: 125%;
 }
 
 /* Header & Nav */
@@ -251,6 +268,17 @@ a {
   top: var(--sp-4);
   left: var(--sp-4);
   z-index: 10;
+  box-shadow: var(--shadow-md);
+}
+
+.badge.bg-danger {
+  animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
 }
 
 .fav-btn-float {

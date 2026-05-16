@@ -58,7 +58,10 @@ class Catalog {
       });
       
       this.filterForm.addEventListener('reset', () => {
-        setTimeout(() => this.applyFilters(), 0);
+        setTimeout(() => {
+          this.applyFilters();
+          App.showNotification('Фильтры сброшены', 'info');
+        }, 0);
       });
 
       this.filterForm.querySelectorAll('input').forEach(input => {

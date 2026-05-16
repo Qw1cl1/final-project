@@ -205,16 +205,26 @@ const App = {
     const container = document.getElementById('notification-container') || this.createNotificationContainer();
     const id = 'notif-' + Date.now();
     
+    const icon = type === 'success' ? 'bi-check-circle-fill' : 
+                 type === 'danger' ? 'bi-exclamation-circle-fill' : 'bi-info-circle-fill';
+    
     const html = `
-      <div id="${id}" class="glass animate-fade-in-up p-3 mb-2 rounded-xl shadow-lg border-custom d-flex align-items-center gap-3" style="min-width: 300px;">
-        ${image ? `<img src="${image}" style="width: 40px; height: 40px; object-fit: contain;">` : `<i class="bi bi-info-circle text-${type} fs-4"></i>`}
-        <div class="flex-grow-1 fw-medium small">${message}</div>
-        <button onclick="this.parentElement.remove()" class="btn btn-sm p-0 border-0"><i class="bi bi-x fs-5"></i></button>
+      <div id="${id}" class="glass animate-fade-in-up p-3 mb-2 rounded-xl shadow-lg border-custom d-flex align-items-center gap-3 border-start border-4 border-${type}" style="min-width: 320px;">
+        ${image ? `<img src="${image}" style="width: 40px; height: 40px; object-fit: contain;">` : `<i class="bi ${icon} text-${type} fs-4"></i>`}
+        <div class="flex-grow-1 fw-bold small text-main">${message}</div>
+        <button onclick="this.parentElement.remove()" class="btn btn-sm p-0 border-0 opacity-50"><i class="bi bi-x-lg"></i></button>
       </div>
     `;
     
     container.insertAdjacentHTML('afterbegin', html);
-    setTimeout(() => document.getElementById(id)?.remove(), 4000);
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.style.opacity = '0';
+        el.style.transform = 'translateX(20px)';
+        setTimeout(() => el.remove(), 400);
+      }
+    }, 4000);
   },
 
   createNotificationContainer() {
