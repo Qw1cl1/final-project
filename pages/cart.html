@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Корзина - DNS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar py-1 d-none d-lg-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <i class="bi bi-geo-alt me-1"></i> г. Москва
+        <span class="mx-3 text-muted">|</span>
+        <a href="#" class="text-muted-custom">Магазины: 182</a>
+        <span class="mx-3 text-muted">|</span>
+        <a href="#" class="text-muted-custom">Покупателям</a>
+        <span class="mx-3 text-muted">|</span>
+        <a href="#" class="text-muted-custom">Юридическим лицам</a>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="fw-semibold">8-800-77-07-999</span>
+        <span class="ms-2 text-muted small">(с 03:00 до 22:00)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="py-3 shadow-sm bg-card-custom sticky-top">
+    <div class="container d-flex align-items-center justify-content-between gap-3 gap-md-4">
+      <button class="btn btn-light d-lg-none border-custom bg-card-custom text-muted-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+        <i class="bi bi-list fs-5"></i>
+      </button>
+      <a href="../index.html" class="d-flex align-items-center text-primary fw-bold fs-2 text-decoration-none" style="letter-spacing: -2px; font-weight: 800 !important;">
+        DNS
+      </a>
+      <div class="dropdown d-none d-lg-block">
+        <button class="btn btn-primary d-flex align-items-center gap-2 fw-semibold px-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-grid-fill"></i> Каталог
+        </button>
+        <ul class="dropdown-menu shadow-md border-custom bg-card-custom w-100 p-3" style="min-width: 320px;">
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Смартфоны"><i class="bi bi-phone me-2 text-primary"></i> Смартфоны и гаджеты</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Ноутбуки"><i class="bi bi-laptop me-2 text-primary"></i> Ноутбуки и компьютеры</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Комплектующие"><i class="bi bi-pc-display me-2 text-primary"></i> Комплектующие для ПК</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Телевизоры"><i class="bi bi-tv me-2 text-primary"></i> ТВ, консоли и аудио</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Консоли"><i class="bi bi-controller me-2 text-primary"></i> Игры и приставки</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Периферия"><i class="bi bi-mouse me-2 text-primary"></i> Периферия и аксессуары</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Умный дом"><i class="bi bi-house-gear me-2 text-primary"></i> Умный дом и безопасность</a></li>
+          <li><a class="dropdown-item py-2 fw-medium" href="catalog.html?cat=Бытовая техника"><i class="bi bi-cup-hot me-2 text-primary"></i> Бытовая техника</a></li>
+          <li><hr class="dropdown-divider border-custom"></li>
+          <li><a class="dropdown-item py-2 fw-bold text-primary" href="catalog.html"><i class="bi bi-list-ul me-2"></i> Все категории</a></li>
+        </ul>
+      </div>
+      <form id="search-form" class="flex-grow-1 position-relative d-none d-md-flex">
+        <input type="text" id="search-input" class="form-control search-input bg-card-custom border-custom text-muted-custom" placeholder="Поиск по сайту...">
+        <button type="submit" class="btn btn-primary search-btn px-3"><i class="bi bi-search"></i></button>
+      </form>
+      <div class="d-flex align-items-center gap-3 gap-md-4 ms-auto ms-md-0">
+        <button id="theme-toggle" class="btn btn-link nav-icon p-0 border-0 text-muted-custom" title="Сменить тему"><i class="bi bi-moon"></i></button>
+        <a href="profile.html" class="nav-icon text-center d-none d-sm-flex flex-column align-items-center text-muted-custom text-decoration-none">
+          <i class="bi bi-person fs-5"></i><span style="font-size: 0.7rem;">Войти</span>
+        </a>
+        <a href="favorites.html" class="nav-icon text-center position-relative d-flex flex-column align-items-center text-muted-custom text-decoration-none">
+          <i class="bi bi-heart fs-5"></i><span style="font-size: 0.7rem;">Избранное</span>
+          <span id="fav-badge" class="nav-badge" style="display:none;">0</span>
+        </a>
+        <a href="cart.html" class="nav-icon text-center position-relative d-flex flex-column align-items-center text-muted-custom text-decoration-none">
+          <i class="bi bi-cart3 fs-5"></i><span style="font-size: 0.7rem;">Корзина</span>
+          <span id="cart-badge" class="nav-badge" style="display:none;">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Offcanvas Menu -->
+  <div class="offcanvas offcanvas-start bg-card-custom text-muted-custom" tabindex="-1" id="mobileMenu">
+    <div class="offcanvas-header border-bottom border-custom">
+      <h5 class="offcanvas-title text-primary fw-bold" style="letter-spacing: -2px;">DNS</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+      <div class="list-group list-group-flush">
+        <a href="catalog.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom fw-semibold"><i class="bi bi-grid-fill me-2 text-primary"></i> Каталог товаров</a>
+        <a href="profile.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-person me-2"></i> Личный кабинет</a>
+        <a href="favorites.html" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-heart me-2"></i> Избранное</a>
+        <a href="#" class="list-group-item list-group-item-action bg-card-custom text-muted-custom py-3 border-custom"><i class="bi bi-telephone me-2"></i> 8-800-77-07-999</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container py-4">
+    <h2 class="fw-bold mb-4">Корзина</h2>
+
+    <div class="row g-4">
+      <div class="col-lg-8">
+        
+        <div id="empty-cart" class="text-center py-5 bg-card-custom border-custom rounded-4 shadow-sm" style="display: none;">
+          <i class="bi bi-cart-x fs-1 text-muted mb-3 d-block"></i>
+          <h4 class="fw-bold">Корзина пуста</h4>
+          <p class="text-muted mb-4">Посмотрите предложения на главной странице, воспользуйтесь каталогом или поиском.</p>
+          <a href="../index.html" class="btn btn-primary px-4 fw-medium">На главную</a>
+        </div>
+
+        <div id="cart-items" class="d-flex flex-column gap-3">
+          <!-- Rendered by JS -->
+        </div>
+
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card bg-card-custom border-custom shadow-sm rounded-4 sticky-top" style="top: 100px;">
+          <div class="card-body p-4">
+            <h5 class="card-title fw-bold mb-4">Условия заказа</h5>
+            
+            <div class="d-flex justify-content-between mb-3 text-muted-custom small">
+              <span id="cart-count">0 товаров</span>
+              <span>Цена без скидки</span>
+            </div>
+            
+            <div class="d-flex justify-content-between mb-3 text-muted-custom small">
+              <span>Скидка</span>
+              <span class="text-danger">-0 ₽</span>
+            </div>
+            
+            <hr class="border-custom">
+            
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <span class="fw-bold fs-5">Итого</span>
+              <span class="fw-bold fs-3 text-main" id="cart-total">0 ₽</span>
+            </div>
+
+            <button class="btn btn-primary w-100 py-3 fw-bold rounded-3 mb-3 text-uppercase" style="letter-spacing:0.5px;" id="checkout-btn" disabled>Перейти к оформлению</button>
+            <p class="text-center text-muted-custom small mb-0" style="font-size:0.75rem;">Доступные способы и время доставки можно выбрать при оформлении заказа</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-5 border-top border-custom bg-card-custom">
+    <div class="container text-center pt-4 pb-4">
+      <p class="text-muted-custom mb-0 small">&copy; 2002—2024 Компания DNS. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/cart.js"></script>
+</body>
+</html>

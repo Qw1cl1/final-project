@@ -1,0 +1,582 @@
+[
+  {
+    "id": "p1",
+    "name": "Смартфон Apple iPhone 15 Pro Max 256 ГБ черный",
+    "category": "Смартфоны",
+    "price": 149999,
+    "oldPrice": 159999,
+    "rating": 4.9,
+    "reviews": 1240,
+    "image": "https://images.unsplash.com/photo-1696423737402-95cd28eb0cb0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" OLED (2796x1290), 120 Гц",
+      "Процессор": "Apple A17 Pro",
+      "Память": "8 ГБ ОЗУ, 256 ГБ ПЗУ",
+      "Камера": "48+12+12 Мп",
+      "Аккумулятор": "4422 мА*ч"
+    },
+    "description": "Флагманский смартфон Apple с титановым корпусом, мощнейшим процессором A17 Pro и передовой системой камер с 5-кратным оптическим зумом.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p2",
+    "name": "Смартфон Samsung Galaxy S24 Ultra 12/512 ГБ серый титан",
+    "category": "Смартфоны",
+    "price": 139999,
+    "oldPrice": 145999,
+    "rating": 4.8,
+    "reviews": 850,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.8\" AMOLED (3120x1440), 120 Гц",
+      "Процессор": "Snapdragon 8 Gen 3",
+      "Память": "12 ГБ ОЗУ, 512 ГБ ПЗУ",
+      "Камера": "200+50+12+10 Мп",
+      "Аккумулятор": "5000 мА*ч"
+    },
+    "description": "Премиальный смартфон с поддержкой Galaxy AI, встроенным пером S Pen и плоским экраном с антибликовым стеклом.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p3",
+    "name": "Смартфон Xiaomi 14 12/256 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 89999,
+    "oldPrice": 99999,
+    "rating": 4.7,
+    "reviews": 430,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.36\" AMOLED (2670x1200), 120 Гц",
+      "Процессор": "Snapdragon 8 Gen 3",
+      "Память": "12 ГБ ОЗУ, 256 ГБ ПЗУ",
+      "Камера": "50+50+50 Мп Leica",
+      "Аккумулятор": "4610 мА*ч"
+    },
+    "description": "Компактный флагман с оптикой Leica, новейшим процессором и сверхбыстрой зарядкой HyperCharge.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p4",
+    "name": "Смартфон POCO X6 Pro 12/512 ГБ желтый",
+    "category": "Смартфоны",
+    "price": 35999,
+    "oldPrice": 39999,
+    "rating": 4.8,
+    "reviews": 1120,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.67\" AMOLED (2712x1220), 120 Гц",
+      "Процессор": "MediaTek Dimensity 8300-Ultra",
+      "Память": "12 ГБ ОЗУ, 512 ГБ ПЗУ",
+      "Камера": "64+8+2 Мп",
+      "Аккумулятор": "5000 мА*ч"
+    },
+    "description": "Идеальный выбор для геймеров: невероятная производительность в среднем сегменте, яркий экран и турбозарядка.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p5",
+    "name": "Ноутбук Apple MacBook Air 13\" M3 8/256 ГБ Space Gray",
+    "category": "Ноутбуки",
+    "price": 129999,
+    "oldPrice": 135999,
+    "rating": 4.9,
+    "reviews": 345,
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "13.6\" Liquid Retina (2560x1664)",
+      "Процессор": "Apple M3",
+      "Память": "8 ГБ ОЗУ, 256 ГБ SSD",
+      "Графика": "Apple graphics 8-core",
+      "Автономность": "До 18 часов"
+    },
+    "description": "Самый популярный ноутбук в мире теперь с чипом M3. Тонкий, легкий и невероятно мощный.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p6",
+    "name": "Ноутбук ASUS ROG Strix G16 16\" / i7-13650HX / 16GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 154999,
+    "oldPrice": 169999,
+    "rating": 4.7,
+    "reviews": 156,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "16\" IPS (1920x1200), 165 Гц",
+      "Процессор": "Intel Core i7-13650HX",
+      "ОЗУ": "16 ГБ DDR5",
+      "Видеокарта": "GeForce RTX 4060 8GB (140W)",
+      "Накопитель": "512 ГБ SSD"
+    },
+    "description": "Мощная игровая станция с превосходной системой охлаждения и полноценной видеокартой RTX 40-й серии.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p7",
+    "name": "Ультрабук HUAWEI MateBook D 15 15.6\" / i5-1155G7 / 8GB / 256GB",
+    "category": "Ноутбуки",
+    "price": 49999,
+    "oldPrice": 59999,
+    "rating": 4.6,
+    "reviews": 2100,
+    "image": "https://images.unsplash.com/photo-1531297172868-ed47690fe402?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS (1920x1080)",
+      "Процессор": "Intel Core i5-1155G7",
+      "ОЗУ": "8 ГБ DDR4",
+      "Видеокарта": "Intel Iris Xe",
+      "Накопитель": "256 ГБ SSD"
+    },
+    "description": "Отличный вариант для учебы и офисной работы в стильном металлическом корпусе.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p8",
+    "name": "Видеокарта GIGABYTE GeForce RTX 4070 SUPER WINDFORCE OC 12G",
+    "category": "Комплектующие",
+    "price": 79999,
+    "oldPrice": 85999,
+    "rating": 4.9,
+    "reviews": 142,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Видеопамять": "12 ГБ GDDR6X",
+      "Шина": "192 бит",
+      "Интерфейс": "PCI-E 4.0",
+      "Частота": "2505 МГц"
+    },
+    "description": "Оптимальная видеокарта для гейминга в 1440p на максимальных настройках с поддержкой DLSS 3.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p9",
+    "name": "Процессор AMD Ryzen 5 7500F OEM",
+    "category": "Комплектующие",
+    "price": 18499,
+    "oldPrice": 20999,
+    "rating": 4.8,
+    "reviews": 530,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Сокет": "AM5",
+      "Ядра/Потоки": "6 / 12",
+      "Частота": "3.7 ГГц (5.0 ГГц Turbo)",
+      "Кэш L3": "32 МБ",
+      "TDP": "65 Вт"
+    },
+    "description": "Народный 6-ядерник на платформе AM5. Отличная производительность в играх за скромные деньги.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p10",
+    "name": "Материнская плата MSI MAG B650 TOMAHAWK WIFI",
+    "category": "Комплектующие",
+    "price": 24999,
+    "oldPrice": 27999,
+    "rating": 4.7,
+    "reviews": 125,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Сокет": "AM5",
+      "Чипсет": "AMD B650",
+      "Память": "4xDDR5 до 7600 МГц",
+      "Сеть": "Wi-Fi 6E, Bluetooth, 2.5G LAN",
+      "Форм-фактор": "Standard-ATX"
+    },
+    "description": "Надежная основа для сборки современного ПК с мощной подсистемой питания и встроенным Wi-Fi.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p11",
+    "name": "Оперативная память Kingston FURY Beast Black 32 ГБ (2x16) DDR5 6000 МГц",
+    "category": "Комплектующие",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.9,
+    "reviews": 410,
+    "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "DDR5",
+      "Объем": "32 ГБ (16x2)",
+      "Частота": "6000 МГц",
+      "Тайминги": "36-38-38",
+      "Профили": "XMP, EXPO"
+    },
+    "description": "Быстрая DDR5 память с низким профилем радиаторов и поддержкой профилей AMD EXPO и Intel XMP.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p12",
+    "name": "SSD M.2 Накопитель Samsung 980 PRO 1 ТБ",
+    "category": "Комплектующие",
+    "price": 11999,
+    "oldPrice": 14999,
+    "rating": 4.9,
+    "reviews": 1850,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Форм-фактор": "M.2 2280",
+      "Интерфейс": "PCI-E 4.0 x4",
+      "Чтение": "7000 Мбайт/сек",
+      "Запись": "5000 Мбайт/сек",
+      "Тип памяти": "3D TLC"
+    },
+    "description": "Один из лучших и самых надежных NVMe накопителей на рынке для ПК и PS5.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p13",
+    "name": "Корпус Deepcool CC560 V2 черный",
+    "category": "Комплектующие",
+    "price": 5499,
+    "oldPrice": 6299,
+    "rating": 4.6,
+    "reviews": 840,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Форм-фактор": "Mid-Tower",
+      "Вентиляторы в комплекте": "4 x 120 мм",
+      "Стекло": "Закаленное стекло сбоку",
+      "БП в комплекте": "Нет"
+    },
+    "description": "Просторный и продуваемый корпус с предустановленными вентиляторами.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p14",
+    "name": "Блок питания MONTECH CENTURY 850",
+    "category": "Комплектующие",
+    "price": 9999,
+    "oldPrice": 11499,
+    "rating": 4.8,
+    "reviews": 340,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Мощность": "850 Вт",
+      "Сертификат": "80 PLUS Gold",
+      "Модульность": "Полностью модульный",
+      "Форм-фактор": "ATX"
+    },
+    "description": "Надежный блок питания с золотым сертификатом качества и тихим вентилятором.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p15",
+    "name": "Телевизор LED Haier 55 Smart TV S1 55\" (139 см)",
+    "category": "Телевизоры",
+    "price": 44999,
+    "oldPrice": 52999,
+    "rating": 4.7,
+    "reviews": 560,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\" (139 см)",
+      "Разрешение": "4K UltraHD (3840x2160)",
+      "Smart TV": "Android TV",
+      "Матрица": "VA"
+    },
+    "description": "Отличный 4K телевизор на базе Android TV с голосовым управлением и яркой картинкой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p16",
+    "name": "Телевизор OLED LG OLED55C3RLA 55\" (139 см)",
+    "category": "Телевизоры",
+    "price": 149999,
+    "oldPrice": 179999,
+    "rating": 4.9,
+    "reviews": 112,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\" (139 см)",
+      "Разрешение": "4K UltraHD (3840x2160)",
+      "Smart TV": "webOS",
+      "Матрица": "OLED (120 Гц)"
+    },
+    "description": "Идеальный черный цвет, потрясающая контрастность и 120 Гц для консолей.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p17",
+    "name": "Игровая консоль Sony PlayStation 5 Slim 1 ТБ",
+    "category": "Консоли",
+    "price": 55999,
+    "oldPrice": 62999,
+    "rating": 4.9,
+    "reviews": 2300,
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Накопитель": "1 ТБ SSD",
+      "Дисковод": "Есть",
+      "Разрешение": "До 8K",
+      "Геймпады в комплекте": "1 шт DualSense"
+    },
+    "description": "Новая, более компактная версия любимой консоли. Погрузитесь в игры нового поколения.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p18",
+    "name": "Геймпад беспроводной Microsoft Xbox Wireless Controller Carbon Black",
+    "category": "Периферия",
+    "price": 6999,
+    "oldPrice": 7999,
+    "rating": 4.8,
+    "reviews": 4120,
+    "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Подключение": "Bluetooth, Радиоканал",
+      "Совместимость": "PC, Xbox Series X/S, Xbox One, Android, iOS",
+      "Питание": "2xAA"
+    },
+    "description": "Самый эргономичный и популярный геймпад для ПК и консолей Xbox.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p19",
+    "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 черная",
+    "category": "Периферия",
+    "price": 16999,
+    "oldPrice": 18499,
+    "rating": 4.9,
+    "reviews": 315,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Сенсор": "HERO 2",
+      "DPI": "32000",
+      "Вес": "60 г",
+      "Подключение": "Радиоканал LIGHTSPEED"
+    },
+    "description": "Новое поколение легендарной киберспортивной мыши: оптические переключатели и Type-C.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p20",
+    "name": "Клавиатура механическая ARDOR GAMING Patron",
+    "category": "Периферия",
+    "price": 5499,
+    "oldPrice": 5999,
+    "rating": 4.7,
+    "reviews": 890,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Механическая (Kailh Red)",
+      "Форм-фактор": "75% (84 клавиши)",
+      "Подсветка": "RGB",
+      "Подключение": "Проводное (Type-C)"
+    },
+    "description": "Качественная и компактная механика с приятным тайпингом и смазанными с завода свитчами.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p21",
+    "name": "Наушники TWS Apple AirPods Pro 2 белый",
+    "category": "Периферия",
+    "price": 25999,
+    "oldPrice": 28999,
+    "rating": 4.9,
+    "reviews": 1540,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Внутриканальные",
+      "Шумоподавление": "Активное (ANC)",
+      "Микрофон": "Есть",
+      "Автономность": "До 6 ч (до 30 ч с кейсом)"
+    },
+    "description": "Лучшие внутриканальные наушники для экосистемы Apple с улучшенным шумоподавлением и разъемом Type-C.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p22",
+    "name": "Монитор 27\" LG UltraGear 27GN800-B черный",
+    "category": "Периферия",
+    "price": 28999,
+    "oldPrice": 32999,
+    "rating": 4.8,
+    "reviews": 670,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "27\"",
+      "Разрешение": "2560x1440 (2K)",
+      "Матрица": "IPS, 144 Гц",
+      "Отклик": "1 мс"
+    },
+    "description": "Быстрый игровой монитор с превосходной цветопередачей и тонкими рамками.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p23",
+    "name": "Микрофон Fifine AmpliGame A8",
+    "category": "Периферия",
+    "price": 4999,
+    "oldPrice": 5599,
+    "rating": 4.7,
+    "reviews": 920,
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Конденсаторный",
+      "Подключение": "USB Type-C",
+      "Направленность": "Кардиоидная",
+      "Подсветка": "RGB"
+    },
+    "description": "Популярный микрофон для стриминга и подкастов с сенсорной кнопкой мута и встроенным поп-фильтром.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p24",
+    "name": "Планшет Apple iPad Air (2022) 64 ГБ серый",
+    "category": "Смартфоны",
+    "price": 59999,
+    "oldPrice": 65999,
+    "rating": 4.9,
+    "reviews": 845,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "10.9\" IPS (2360x1640)",
+      "Процессор": "Apple M1",
+      "Память": "8 ГБ ОЗУ, 64 ГБ ПЗУ",
+      "Связь": "Wi-Fi"
+    },
+    "description": "Мощный планшет с чипом M1, идеально подходит для учебы, рисования и работы.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p25",
+    "name": "Смарт-часы Apple Watch Series 9 45mm Midnight",
+    "category": "Смартфоны",
+    "price": 44999,
+    "oldPrice": 48999,
+    "rating": 4.8,
+    "reviews": 510,
+    "image": "https://images.unsplash.com/photo-1434493789847-2902a52dda56?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "OLED (396x484)",
+      "Процессор": "S9 SiP",
+      "Функции": "ЭКГ, Пульс, Кислород, Double Tap",
+      "Защита": "IP6X"
+    },
+    "description": "Новые смарт-часы с ультраярким экраном и функцией двойного касания пальцами для управления без касания экрана.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p26",
+    "name": "Робот-пылесос Xiaomi Robot Vacuum S10 белый",
+    "category": "Умный дом",
+    "price": 19999,
+    "oldPrice": 22999,
+    "rating": 4.7,
+    "reviews": 1150,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Мощность всасывания": "4000 Па",
+      "Навигация": "LDS лазер (Лидар)",
+      "Влажная уборка": "Есть",
+      "Аккумулятор": "3200 мА*ч"
+    },
+    "description": "Отличный помощник по дому со смарт-навигацией, который легко справляется с сухой и влажной уборкой.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p27",
+    "name": "Умная колонка Яндекс Станция Миди с Алисой черная",
+    "category": "Умный дом",
+    "price": 14999,
+    "oldPrice": null,
+    "rating": 4.8,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Мощность звука": "24 Вт",
+      "Микрофоны": "4 шт",
+      "Умный дом": "Встроенный хаб Zigbee",
+      "Голосовой помощник": "Алиса"
+    },
+    "description": "Компактная колонка с отличным звуком, LED-часами и встроенным хабом для управления умным домом без интернета.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p28",
+    "name": "Кофемашина DeLonghi Magnifica S ECAM 22.110.B черная",
+    "category": "Бытовая техника",
+    "price": 34999,
+    "oldPrice": 42999,
+    "rating": 4.8,
+    "reviews": 1560,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Автоматическая",
+      "Мощность": "1450 Вт",
+      "Давление помпы": "15 бар",
+      "Капучинатор": "Ручной"
+    },
+    "description": "Надежная и простая в обслуживании кофемашина, которая готовит отличный эспрессо и капучино из свежемолотых зерен.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p29",
+    "name": "Стиральная машина LG F2J3NS0W белая",
+    "category": "Бытовая техника",
+    "price": 38999,
+    "oldPrice": 44999,
+    "rating": 4.7,
+    "reviews": 890,
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Загрузка": "До 6 кг",
+      "Скорость отжима": "До 1200 об/мин",
+      "Инверторный мотор": "Прямой привод (Direct Drive)",
+      "Габариты (ШхГхВ)": "60x44x85 см"
+    },
+    "description": "Узкая стиральная машина с прямым приводом, обеспечивающая тихую работу и долговечность.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p30",
+    "name": "Фитнес-браслет Xiaomi Smart Band 8 черный",
+    "category": "Смартфоны",
+    "price": 3499,
+    "oldPrice": 3999,
+    "rating": 4.8,
+    "reviews": 3200,
+    "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "1.62\" AMOLED, 60 Гц",
+      "Автономность": "До 16 дней",
+      "Тренировки": "150+ режимов",
+      "Датчики": "Пульсометр, SpO2"
+    },
+    "description": "Самый популярный фитнес-трекер в мире с ярким экраном 60 Гц и новым механизмом крепления ремешков.",
+    "isNew": false,
+    "isPopular": true
+  }
+]
