@@ -47,7 +47,7 @@ const App = {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + ' ₽';
   },
 
-  showToast(message, type = 'success') {
+  showToast(message, type = 'success', product = null) {
     let container = document.getElementById('toast-container');
     if (!container) {
       container = document.createElement('div');
@@ -58,22 +58,39 @@ const App = {
     }
 
     const toastId = 'toast-' + Date.now();
-    const bgClass = type === 'success' ? 'bg-success text-white' : 'bg-danger text-white';
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const bgClass = isDark ? 'bg-card-custom border-custom text-main' : 'bg-white border-custom text-dark';
+    const iconColor = type === 'success' ? 'text-success' : 'text-danger';
+    const iconClass = type === 'success' ? 'bi-check-circle-fill' : 'bi-info-circle-fill';
     
-    const toastHtml = `
-      <div id="${toastId}" class="toast align-items-center ${bgClass} border-0 mb-2" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-          <div class="toast-body fw-medium">
-            ${message}
+    let toastBody = `<div class="fw-medium d-flex align-items-center gap-2"><i class="bi ${iconClass} ${iconColor} fs-5"></i> ${message}</div>`;
+    
+    if (product) {
+      toastBody = `
+        <div class="d-flex align-items-center gap-3">
+          <img src="${product.image}" class="rounded bg-light" style="width: 50px; height: 50px; object-fit: contain; padding: 2px;" alt="${product.name}">
+          <div>
+            <div class="fw-bold mb-1" style="font-size: 0.85rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${product.name}</div>
+            <div class="text-muted-custom small"><i class="bi ${iconClass} ${iconColor}"></i> ${message}</div>
           </div>
-          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+        </div>
+      `;
+    }
+
+    const toastHtml = `
+      <div id="${toastId}" class="toast align-items-center ${bgClass} border shadow-lg mb-3 rounded-4" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body p-3 w-100">
+            ${toastBody}
+          </div>
+          <button type="button" class="btn-close me-3 m-auto" data-bs-dismiss="toast" aria-label="Закрыть"></button>
         </div>
       </div>
     `;
     
     container.insertAdjacentHTML('beforeend', toastHtml);
     const toastElement = document.getElementById(toastId);
-    const toast = new bootstrap.Toast(toastElement, { delay: 3000 });
+    const toast = new bootstrap.Toast(toastElement, { delay: 4000 });
     toast.show();
 
     toastElement.addEventListener('hidden.bs.toast', () => {
@@ -94,10 +111,11 @@ const App = {
     
     localStorage.setItem('cart', JSON.stringify(this.cart));
     this.updateBadges();
-    this.showToast(`Товар добавлен в корзину`);
+    this.showToast('Добавлен в корзину', 'success', product);
   },
 
   toggleFavorite(productId, btnElement) {
+    const product = this.products.find(p => p.id === productId);
     const index = this.favorites.indexOf(productId);
     if (index > -1) {
       this.favorites.splice(index, 1);
@@ -106,7 +124,7 @@ const App = {
         btnElement.classList.add('text-muted');
         btnElement.innerHTML = '<i class="bi bi-heart"></i>';
       }
-      this.showToast('Товар удален из избранного');
+      this.showToast('Удален из избранного', 'danger', product);
     } else {
       this.favorites.push(productId);
       if (btnElement) {
@@ -114,7 +132,7 @@ const App = {
         btnElement.classList.remove('text-muted');
         btnElement.innerHTML = '<i class="bi bi-heart-fill"></i>';
       }
-      this.showToast('Товар добавлен в избранное');
+      this.showToast('Добавлен в избранное', 'success', product);
     }
     localStorage.setItem('favorites', JSON.stringify(this.favorites));
     this.updateBadges();

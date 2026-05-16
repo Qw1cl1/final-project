@@ -163,6 +163,17 @@
                 <img src="https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80" alt="PC Build" class="d-none d-md-block ms-auto" style="height: 250px; object-fit: contain; mix-blend-mode: multiply;">
               </div>
             </div>
+            <div class="carousel-item h-100" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+              <div class="d-flex align-items-center h-100 p-4 p-md-5 text-white">
+                <div>
+                  <span class="badge bg-white text-success mb-3 px-3 py-2 fs-6">Спецпредложение</span>
+                  <h1 class="display-5 fw-bold mb-3">Геймерская периферия</h1>
+                  <p class="lead mb-4 d-none d-md-block">Механические клавиатуры, мыши и гарнитуры для настоящих профессионалов.</p>
+                  <a href="pages/catalog.html?cat=Периферия" class="btn btn-light btn-lg px-4 fw-bold text-success">Смотреть каталог</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80" alt="Peripheral" class="d-none d-md-block ms-auto rounded-3" style="height: 250px; object-fit: contain; mix-blend-mode: normal; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+              </div>
+            </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -261,6 +272,14 @@
       </div>
     </section>
 
+    <!-- Recently Viewed -->
+    <section class="mb-5" id="recently-viewed-section" style="display: none;">
+      <h3 class="fw-bold mb-4">Вы недавно смотрели</h3>
+      <div class="row flex-nowrap overflow-auto hide-scrollbar pb-3" id="recently-viewed-grid" style="scroll-snap-type: x mandatory;">
+        <!-- Rendered via JS -->
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -340,6 +359,21 @@
         // Populate new
         const newArrivals = App.products.filter(p => p.isNew).slice(0, 4);
         newGrid.innerHTML = newArrivals.map(p => App.generateProductCard(p)).join('');
+
+        // Populate recently viewed
+        const recentIds = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+        if (recentIds.length > 0) {
+          document.getElementById('recently-viewed-section').style.display = 'block';
+          const recentProducts = recentIds.map(id => App.products.find(p => p.id === id)).filter(Boolean);
+          // Modify card classes to be fixed width for horizontal scroll
+          const recentHtml = recentProducts.map(p => {
+            let cardHtml = App.generateProductCard(p);
+            // Replace standard col classes with a fixed width col for horizontal scrolling
+            return cardHtml.replace('col-6 col-md-4 col-lg-3 mb-4', 'col-8 col-sm-6 col-md-4 col-lg-3 mb-2 flex-shrink-0').replace('class="product-card', 'class="product-card h-100" style="scroll-snap-align: start;"');
+          }).join('');
+          document.getElementById('recently-viewed-grid').innerHTML = recentHtml;
+        }
+
       } else {
         popGrid.innerHTML = '<div class="col-12"><div class="alert alert-warning">Товары не найдены</div></div>';
         newGrid.innerHTML = '<div class="col-12"><div class="alert alert-warning">Товары не найдены</div></div>';

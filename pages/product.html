@@ -124,6 +124,13 @@
         return;
       }
 
+      // Save to Recently Viewed
+      let recentIds = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+      recentIds = recentIds.filter(id => id !== productId); // Remove if exists
+      recentIds.unshift(productId); // Add to beginning
+      if (recentIds.length > 10) recentIds.pop(); // Keep max 10
+      localStorage.setItem('recentlyViewed', JSON.stringify(recentIds));
+
       // Generate Specs HTML
       let specsHtml = '';
       if (product.specs) {
