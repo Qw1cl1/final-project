@@ -1,3 +1,8 @@
+/**
+ * ElectroMarket Catalog Logic
+ * Handles filtering, sorting, and infinite scroll.
+ */
+
 class Catalog {
   constructor() {
     this.grid = document.getElementById('catalog-grid');
@@ -10,7 +15,7 @@ class Catalog {
     
     this.filteredProducts = [];
     this.currentPage = 1;
-    this.itemsPerPage = 20;
+    this.itemsPerPage = 12;
     this.observer = null;
     
     // Debounce timer
@@ -22,6 +27,7 @@ class Catalog {
   async init() {
     await App.init();
     
+    // Set UI category titles
     if (this.activeCategory !== 'all') {
       const titleEl = document.getElementById('catalog-title');
       const breadcrumbEl = document.getElementById('catalog-breadcrumb');
@@ -29,10 +35,12 @@ class Catalog {
       if (breadcrumbEl) breadcrumbEl.textContent = this.activeCategory;
     }
 
-    this.filteredProducts = [...App.products];
-    this.applyFilters();
     this.setupListeners();
     this.setupIntersectionObserver();
+    this.applyFilters();
+    
+    // Listen for global store updates
+    document.addEventListener('appReady', () => this.applyFilters());
   }
 
   setupListeners() {
@@ -41,30 +49,28 @@ class Catalog {
       this.filterTimeout = setTimeout(() => this.applyFilters(), 150);
     };
 
-    if (this.sortSelect) {
-      this.sortSelect.addEventListener('change', debouncedFilter);
-    }
+    this.sortSelect?.addEventListener('change', debouncedFilter);
+    
     if (this.filterForm) {
       this.filterForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        debouncedFilter();
+        this.applyFilters();
       });
+      
       this.filterForm.addEventListener('reset', () => {
-        setTimeout(debouncedFilter, 0);
+        setTimeout(() => this.applyFilters(), 0);
       });
-      // Add real-time input debounce
-      const inputs = this.filterForm.querySelectorAll('input, select');
-      inputs.forEach(input => {
+
+      this.filterForm.querySelectorAll('input').forEach(input => {
         input.addEventListener('input', debouncedFilter);
       });
     }
   }
 
   setupIntersectionObserver() {
-    // Create an observer to watch for a scroll trigger at the bottom of the grid
     const options = {
       root: null,
-      rootMargin: '100px',
+      rootMargin: '200px',
       threshold: 0.1
     };
 
@@ -78,7 +84,7 @@ class Catalog {
   }
 
   applyFilters() {
-    let result = [...App.products];
+    let result = [...Store.products];
 
     // Filter by Category
     if (this.activeCategory !== 'all') {
@@ -90,7 +96,7 @@ class Catalog {
     const max = parseInt(this.priceMax?.value) || Infinity;
     result = result.filter(p => p.price >= min && p.price <= max);
 
-    // Filter by Checkboxes
+    // Filter by Special Badges
     const onlyNew = document.getElementById('filter-new')?.checked;
     const onlyPopular = document.getElementById('filter-popular')?.checked;
     const onlyDiscount = document.getElementById('filter-discount')?.checked;
@@ -125,35 +131,29 @@ class Catalog {
   renderInitial() {
     if (!this.grid) return;
     
-    // Disconnect observer temporarily
     if (this.observer) this.observer.disconnect();
 
     if (this.totalCountEl) {
       const count = this.filteredProducts.length;
-      let text = `${count} товаров`;
-      if (count % 10 === 1 && count % 100 !== 11) text = `${count} товар`;
-      else if ([2,3,4].includes(count % 10) && ![12,13,14].includes(count % 100)) text = `${count} товара`;
-      
-      this.totalCountEl.textContent = text;
+      this.totalCountEl.textContent = `${count} ${this.getNoun(count, 'товар', 'товара', 'товаров')}`;
     }
 
     if (this.filteredProducts.length === 0) {
       this.grid.innerHTML = `
-        <div class="col-12 text-center py-5">
-          <i class="bi bi-emoji-frown fs-1 text-muted"></i>
-          <h4 class="mt-3">Товары не найдены</h4>
-          <p class="text-muted">Попробуйте изменить параметры фильтрации или поисковый запрос.</p>
-          <button class="btn btn-outline-primary mt-2" onclick="document.getElementById('filter-form').reset()">Сбросить фильтры</button>
+        <div class="col-12 text-center py-10 animate-fade-in-up">
+          <div class="bg-primary-light text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+            <i class="bi bi-search fs-2"></i>
+          </div>
+          <h3 class="fw-800 mb-2">Ничего не найдено</h3>
+          <p class="text-muted">Попробуйте изменить параметры фильтрации.</p>
         </div>
       `;
       return;
     }
 
-    // Render first page
     const itemsToShow = this.filteredProducts.slice(0, this.itemsPerPage);
-    this.grid.innerHTML = itemsToShow.map(p => App.generateProductCard(p, '../')).join('');
+    this.grid.innerHTML = itemsToShow.map(p => App.generateProductCard(p)).join('');
 
-    // Add scroll trigger element if there are more items
     if (this.filteredProducts.length > this.itemsPerPage) {
       this.addScrollTrigger();
     }
@@ -166,20 +166,17 @@ class Catalog {
 
     if (nextItems.length === 0) return;
 
-    // Remove old trigger
     const oldTrigger = document.getElementById('scroll-trigger');
     if (oldTrigger) {
       if (this.observer) this.observer.unobserve(oldTrigger);
       oldTrigger.remove();
     }
 
-    // Append new items
-    const html = nextItems.map(p => App.generateProductCard(p, '../')).join('');
+    const html = nextItems.map(p => App.generateProductCard(p)).join('');
     this.grid.insertAdjacentHTML('beforeend', html);
     
     this.currentPage++;
 
-    // Re-add trigger if there are still more items
     if (endIndex < this.filteredProducts.length) {
       this.addScrollTrigger();
     }
@@ -187,11 +184,9 @@ class Catalog {
 
   addScrollTrigger() {
     const triggerHtml = `
-      <div id="scroll-trigger" class="col-12 text-center py-4">
-        <div class="spinner-border text-primary spinner-border-sm" role="status">
-          <span class="visually-hidden">Загрузка...</span>
-        </div>
-        <span class="ms-2 text-muted-custom small">Подгрузка товаров...</span>
+      <div id="scroll-trigger" class="col-12 text-center py-10">
+        <div class="spinner-border text-primary spinner-border-sm" role="status"></div>
+        <span class="ms-2 text-muted small fw-bold text-uppercase tracking-wider">Загрузка еще...</span>
       </div>
     `;
     this.grid.insertAdjacentHTML('beforeend', triggerHtml);
@@ -200,8 +195,19 @@ class Catalog {
       this.observer.observe(triggerEl);
     }
   }
+
+  getNoun(number, one, two, five) {
+    let n = Math.abs(number);
+    n %= 100;
+    if (n >= 5 && n <= 20) return five;
+    n %= 10;
+    if (n === 1) return one;
+    if (n >= 2 && n <= 4) return two;
+    return five;
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   new Catalog();
 });
+
