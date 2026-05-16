@@ -202,7 +202,7 @@ const App = {
               ${favIcon}
             </button>
             <a href="${pathPrefix}pages/product.html?id=${product.id}" class="d-block">
-              <img src="${product.image}" class="img-fluid" style="height: 160px; object-fit: contain;" alt="${product.name}">
+              <img src="${product.image}" loading="lazy" class="img-fluid" style="height: 160px; object-fit: contain;" alt="${product.name}">
             </a>
           </div>
           <div class="product-body p-3 d-flex flex-column flex-grow-1">

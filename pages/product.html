@@ -211,24 +211,130 @@
               <p class="fs-6 lh-lg">${product.description}</p>
             </div>
             <div class="tab-pane fade text-main pt-3" id="reviews" role="tabpanel">
-              <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm">
-                <div class="card-body p-4">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="bg-light text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">А</div>
-                    <div>
-                      <div class="fw-bold">Алексей М.</div>
-                      <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <div class="row g-4">
+                <div class="col-lg-8" id="reviews-list">
+                  <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm">
+                    <div class="card-body p-4">
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="bg-light text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">А</div>
+                        <div>
+                          <div class="fw-bold">Алексей М.</div>
+                          <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        </div>
+                        <div class="ms-auto text-muted small">12 мая 2024</div>
+                      </div>
+                      <p class="mb-0 text-main">Отличный товар, полностью соответствует описанию. Покупкой доволен, доставка была очень быстрой!</p>
                     </div>
-                    <div class="ms-auto text-muted small">12 мая 2024</div>
                   </div>
-                  <p class="mb-0 text-main">Отличный товар, полностью соответствует описанию. Покупкой доволен, доставка была очень быстрой!</p>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card bg-card-custom border-custom shadow-sm rounded-4 sticky-top" style="top: 100px;">
+                    <div class="card-body p-4">
+                      <h5 class="fw-bold mb-3">Оставить отзыв</h5>
+                      <form id="review-form">
+                        <div class="mb-3">
+                          <label class="form-label text-muted-custom small mb-1">Ваша оценка</label>
+                          <div class="rating-stars text-warning fs-5 cursor-pointer" id="rating-selector">
+                            <i class="bi bi-star" data-value="1"></i>
+                            <i class="bi bi-star" data-value="2"></i>
+                            <i class="bi bi-star" data-value="3"></i>
+                            <i class="bi bi-star" data-value="4"></i>
+                            <i class="bi bi-star" data-value="5"></i>
+                          </div>
+                          <input type="hidden" id="rating-val" value="0" required>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label text-muted-custom small">Имя</label>
+                          <input type="text" class="form-control bg-card-custom border-custom text-main" id="review-name" required placeholder="Ваше имя">
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label text-muted-custom small">Достоинства</label>
+                          <input type="text" class="form-control bg-card-custom border-custom text-main" placeholder="Что вам понравилось">
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label text-muted-custom small">Недостатки</label>
+                          <input type="text" class="form-control bg-card-custom border-custom text-main" placeholder="Что можно улучшить">
+                        </div>
+                        <div class="mb-4">
+                          <label class="form-label text-muted-custom small">Комментарий</label>
+                          <textarea class="form-control bg-card-custom border-custom text-main" id="review-text" rows="3" required placeholder="Поделитесь впечатлениями"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 fw-medium">Отправить отзыв</button>
+                      </form>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <button class="btn btn-outline-primary fw-medium mt-2">Написать отзыв</button>
             </div>
           </div>
         </div>
       `;
+      // Handle Review Rating
+      const ratingStars = document.querySelectorAll('#rating-selector i');
+      const ratingInput = document.getElementById('rating-val');
+      
+      ratingStars.forEach(star => {
+        star.addEventListener('click', (e) => {
+          const val = parseInt(e.target.dataset.value);
+          ratingInput.value = val;
+          ratingStars.forEach(s => {
+            if (parseInt(s.dataset.value) <= val) {
+              s.classList.remove('bi-star');
+              s.classList.add('bi-star-fill');
+            } else {
+              s.classList.add('bi-star');
+              s.classList.remove('bi-star-fill');
+            }
+          });
+        });
+      });
+
+      // Handle Review Submit
+      const reviewForm = document.getElementById('review-form');
+      if (reviewForm) {
+        reviewForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const val = parseInt(ratingInput.value);
+          if (val === 0) {
+            App.showToast('Пожалуйста, поставьте оценку', 'danger');
+            return;
+          }
+          
+          const name = document.getElementById('review-name').value;
+          const text = document.getElementById('review-text').value;
+          const initial = name.charAt(0).toUpperCase();
+          const today = new Date().toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+          
+          const starsHtml = '<i class="bi bi-star-fill"></i>'.repeat(val) + '<i class="bi bi-star"></i>'.repeat(5 - val);
+          
+          const newReview = `
+            <div class="card bg-card-custom border-custom mb-3 rounded-4 shadow-sm" style="animation: fadeIn 0.5s ease;">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center fw-bold me-3" style="width:40px;height:40px;">${initial}</div>
+                  <div>
+                    <div class="fw-bold">${name}</div>
+                    <div class="text-warning small">${starsHtml}</div>
+                  </div>
+                  <div class="ms-auto text-muted small">${today}</div>
+                </div>
+                <p class="mb-0 text-main">${text}</p>
+              </div>
+            </div>
+          `;
+          
+          document.getElementById('reviews-list').insertAdjacentHTML('afterbegin', newReview);
+          reviewForm.reset();
+          ratingInput.value = 0;
+          ratingStars.forEach(s => {
+            s.classList.add('bi-star');
+            s.classList.remove('bi-star-fill');
+          });
+          
+          App.showToast('Ваш отзыв успешно опубликован!');
+        });
+      }
+
     });
   </script>
 </body>
