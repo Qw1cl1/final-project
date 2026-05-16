@@ -21,8 +21,10 @@ class CartPage {
         const target = e.target;
         const btnRow = target.closest('button');
         if (!btnRow) return;
+        
+        e.preventDefault();
 
-        const id = btnRow.dataset.id;
+        const id = String(btnRow.dataset.id).trim();
         const action = btnRow.dataset.action;
 
         if (action === 'increase') {
@@ -47,12 +49,13 @@ class CartPage {
   }
 
   updateQuantity(id, delta) {
-    const item = App.cart.find(i => i.id === id);
+    const stringId = String(id).trim();
+    const item = App.cart.find(i => String(i.id).trim() === stringId);
     if (!item) return;
 
     item.quantity += delta;
     if (item.quantity <= 0) {
-      this.removeItem(id);
+      this.removeItem(stringId);
       return;
     }
 
@@ -62,7 +65,8 @@ class CartPage {
   }
 
   removeItem(id) {
-    App.cart = App.cart.filter(i => i.id !== id);
+    const stringId = String(id).trim();
+    App.cart = App.cart.filter(i => String(i.id).trim() !== stringId);
     localStorage.setItem('cart', JSON.stringify(App.cart));
     App.updateBadges();
     this.render();
@@ -73,6 +77,7 @@ class CartPage {
     if (!this.cartItemsContainer) return;
 
     if (App.cart.length === 0) {
+      this.cartItemsContainer.innerHTML = '';
       this.cartItemsContainer.style.display = 'none';
       if (this.emptyCartEl) this.emptyCartEl.style.display = 'block';
       if (this.cartTotalEl) this.cartTotalEl.textContent = '0 ₽';
