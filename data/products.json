@@ -578,5 +578,566 @@
     "description": "Самый популярный фитнес-трекер в мире с ярким экраном 60 Гц и новым механизмом крепления ремешков.",
     "isNew": false,
     "isPopular": true
+  },
+  {
+    "id": "p31",
+    "name": "Смартфон Realme 11 Pro+ 12/512 ГБ бежевый",
+    "category": "Смартфоны",
+    "price": 36999,
+    "oldPrice": 39999,
+    "rating": 4.8,
+    "reviews": 842,
+    "image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED 120 Гц",
+      "Процессор": "Dimensity 7050",
+      "Память": "12/512 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Стильный смартфон с изогнутым экраном и невероятной камерой на 200 Мп.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p32",
+    "name": "Смартфон Honor 90 8/256 ГБ зеленый",
+    "category": "Смартфоны",
+    "price": 39999,
+    "oldPrice": 44999,
+    "rating": 4.7,
+    "reviews": 512,
+    "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" AMOLED 120 Гц",
+      "Процессор": "Snapdragon 7 Gen 1",
+      "Память": "8/256 ГБ",
+      "Камера": "200 Мп"
+    },
+    "description": "Яркий экран без мерцания, мощный процессор и отличный дизайн.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p33",
+    "name": "Смартфон Nothing Phone (2) 12/256 ГБ темно-серый",
+    "category": "Смартфоны",
+    "price": 64999,
+    "oldPrice": 69999,
+    "rating": 4.9,
+    "reviews": 310,
+    "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6.7\" OLED 120 Гц",
+      "Процессор": "Snapdragon 8+ Gen 1",
+      "Память": "12/256 ГБ",
+      "Особенность": "Интерфейс Glyph"
+    },
+    "description": "Уникальный дизайн со светящейся задней панелью Glyph и чистым Android.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p34",
+    "name": "Ноутбук Lenovo IdeaPad Slim 3 15IAN8 15.6\" / i3-N305 / 8GB / 256GB",
+    "category": "Ноутбуки",
+    "price": 35999,
+    "oldPrice": 41999,
+    "rating": 4.6,
+    "reviews": 1120,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" TN (1920x1080)",
+      "Процессор": "Intel Core i3-N305",
+      "ОЗУ": "8 ГБ LPDDR5",
+      "Накопитель": "256 ГБ SSD"
+    },
+    "description": "Бюджетный и легкий ноутбук для базовых задач, учебы и серфинга.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p35",
+    "name": "Ноутбук MSI Katana 17 B12VFK 17.3\" / i7-12650H / 16GB / RTX 4060",
+    "category": "Ноутбуки",
+    "price": 114999,
+    "oldPrice": 125999,
+    "rating": 4.8,
+    "reviews": 435,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "17.3\" IPS 144 Гц",
+      "Процессор": "Intel Core i7-12650H",
+      "ОЗУ": "16 ГБ DDR5",
+      "Видеокарта": "RTX 4060 8GB"
+    },
+    "description": "Огромный экран и мощная видеокарта для гейминга с комфортом.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p36",
+    "name": "Ноутбук Acer Nitro 5 AN515 15.6\" / Ryzen 5 7535HS / 16GB / RTX 4050",
+    "category": "Ноутбуки",
+    "price": 89999,
+    "oldPrice": 96999,
+    "rating": 4.7,
+    "reviews": 680,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "15.6\" IPS 144 Гц",
+      "Процессор": "Ryzen 5 7535HS",
+      "ОЗУ": "16 ГБ DDR5",
+      "Видеокарта": "RTX 4050 6GB"
+    },
+    "description": "Сбалансированный игровой ноутбук среднего сегмента от Acer.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p37",
+    "name": "Телевизор LED TCL 50P635 50\" (127 см) черный",
+    "category": "Телевизоры",
+    "price": 28999,
+    "oldPrice": 33999,
+    "rating": 4.7,
+    "reviews": 1540,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "50\"",
+      "Разрешение": "4K UltraHD",
+      "Smart TV": "Google TV",
+      "Матрица": "VA"
+    },
+    "description": "Доступный 4K телевизор с удобной системой Google TV и голосовым поиском.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p38",
+    "name": "Телевизор QLED Hisense 55E7KQ 55\" (139 см) серый",
+    "category": "Телевизоры",
+    "price": 39999,
+    "oldPrice": 45999,
+    "rating": 4.8,
+    "reviews": 890,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Диагональ": "55\"",
+      "Разрешение": "4K UltraHD",
+      "Технология": "QLED",
+      "Smart TV": "VIDAA"
+    },
+    "description": "Яркие цвета благодаря технологии QLED и быстрый интерфейс VIDAA.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p39",
+    "name": "Процессор Intel Core i5-12400F OEM",
+    "category": "Комплектующие",
+    "price": 13999,
+    "oldPrice": 15499,
+    "rating": 4.9,
+    "reviews": 4200,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Сокет": "LGA 1700",
+      "Ядра/Потоки": "6/12",
+      "Частота": "2.5 ГГц (4.4 ГГц Turbo)",
+      "TDP": "65 Вт"
+    },
+    "description": "Легендарный народный процессор для сборок средней ценовой категории.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p40",
+    "name": "Видеокарта Palit GeForce RTX 4060 Dual 8G",
+    "category": "Комплектующие",
+    "price": 32999,
+    "oldPrice": 36999,
+    "rating": 4.8,
+    "reviews": 1150,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Видеопамять": "8 ГБ GDDR6",
+      "Шина": "128 бит",
+      "Интерфейс": "PCI-E 4.0",
+      "Поддержка": "DLSS 3.0"
+    },
+    "description": "Отличный вариант для Full HD гейминга с поддержкой генерации кадров.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p41",
+    "name": "Материнская плата GIGABYTE B550 GAMING X V2",
+    "category": "Комплектующие",
+    "price": 10999,
+    "oldPrice": 12499,
+    "rating": 4.7,
+    "reviews": 2100,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Сокет": "AM4",
+      "Чипсет": "AMD B550",
+      "Память": "4xDDR4",
+      "Форм-фактор": "Standard-ATX"
+    },
+    "description": "Надежная основа для сборок на базе процессоров AMD Ryzen прошлых поколений.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p42",
+    "name": "Кулер для процессора ID-COOLING SE-224-XTS",
+    "category": "Комплектующие",
+    "price": 1999,
+    "oldPrice": 2499,
+    "rating": 4.9,
+    "reviews": 5600,
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "TDP": "220 Вт",
+      "Вентилятор": "1x 120 мм",
+      "Трубки": "4 шт",
+      "Подсветка": "Нет"
+    },
+    "description": "Башенный кулер, который справится с большинством 6-ядерных процессоров.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p43",
+    "name": "Клавиатура механическая Redragon Fizz",
+    "category": "Периферия",
+    "price": 2999,
+    "oldPrice": 3499,
+    "rating": 4.6,
+    "reviews": 1890,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Механическая",
+      "Формат": "60%",
+      "Свитчи": "Red",
+      "Подсветка": "RGB"
+    },
+    "description": "Очень компактная и доступная механика для геймеров с ограниченным бюджетом.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p44",
+    "name": "Мышь беспроводная Razer DeathAdder V2 X HyperSpeed",
+    "category": "Периферия",
+    "price": 4999,
+    "oldPrice": 5999,
+    "rating": 4.8,
+    "reviews": 920,
+    "image": "https://images.unsplash.com/photo-1527814050087-37938154798f?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Сенсор": "Оптический",
+      "DPI": "14000",
+      "Питание": "1хAA/AAA",
+      "Связь": "Радиоканал / Bluetooth"
+    },
+    "description": "Легендарная форма с беспроводной связью и огромным временем работы от батарейки.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p45",
+    "name": "Гарнитура игровая HyperX Cloud Core 7.1",
+    "category": "Периферия",
+    "price": 6499,
+    "oldPrice": 7999,
+    "rating": 4.8,
+    "reviews": 3400,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Формат": "Охватывающие",
+      "Подключение": "Проводное",
+      "Микрофон": "Съемный",
+      "Звук": "Виртуальный 7.1"
+    },
+    "description": "Надежные и удобные наушники с алюминиевой рамой и отличным позиционированием.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p46",
+    "name": "Умная лампа Яндекс Лампа 3 (E27, Wi-Fi)",
+    "category": "Умный дом",
+    "price": 1499,
+    "oldPrice": 1799,
+    "rating": 4.8,
+    "reviews": 1100,
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Цоколь": "E27",
+      "Мощность": "9 Вт",
+      "Свет": "RGB",
+      "Управление": "Алиса"
+    },
+    "description": "Лампочка, которая меняет цвет по вашей команде. Идеально для Алисы.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p47",
+    "name": "Датчик температуры и влажности Xiaomi Temperature Sensor 2",
+    "category": "Умный дом",
+    "price": 599,
+    "oldPrice": 799,
+    "rating": 4.7,
+    "reviews": 2500,
+    "image": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Связь": "Bluetooth",
+      "Экран": "ЖК",
+      "Батарея": "CR2032"
+    },
+    "description": "Маленький экран для контроля климата в детской или гостиной.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p48",
+    "name": "Робот-мойщик окон Даджет W100",
+    "category": "Умный дом",
+    "price": 9999,
+    "oldPrice": 12999,
+    "rating": 4.6,
+    "reviews": 850,
+    "image": "https://images.unsplash.com/photo-1589824781470-7bb9fe6add39?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Управление": "Пульт ДУ",
+      "Страховка": "Трос 4м",
+      "Питание": "От сети"
+    },
+    "description": "Безопасный способ держать окна в чистоте на любом этаже.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p49",
+    "name": "Холодильник Indesit ITR 4180 W белый",
+    "category": "Бытовая техника",
+    "price": 32999,
+    "oldPrice": 38999,
+    "rating": 4.7,
+    "reviews": 640,
+    "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Двухкамерный",
+      "Разморозка": "No Frost",
+      "Объем": "298 л",
+      "Высота": "185 см"
+    },
+    "description": "Вместительный холодильник с системой охлаждения без льда.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p50",
+    "name": "Микроволновая печь DEXP MM-70 белый",
+    "category": "Бытовая техника",
+    "price": 4299,
+    "oldPrice": 4999,
+    "rating": 4.6,
+    "reviews": 2300,
+    "image": "https://images.unsplash.com/photo-1585659722983-3a6750f2fd82?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Объем": "20 л",
+      "Мощность": "700 Вт",
+      "Управление": "Механическое"
+    },
+    "description": "Простая и надежная микроволновка от собственного бренда.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p51",
+    "name": "Утюг Tefal Virtuo FV1710E0 синий",
+    "category": "Бытовая техника",
+    "price": 2499,
+    "oldPrice": 3199,
+    "rating": 4.8,
+    "reviews": 1120,
+    "image": "https://images.unsplash.com/photo-1517488629431-6427e02d72f1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Мощность": "1800 Вт",
+      "Подошва": "Антипригарная",
+      "Паровой удар": "80 г/мин"
+    },
+    "description": "Легкий утюг, который быстро справляется со складками.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p52",
+    "name": "Консоль Nintendo Switch OLED белый",
+    "category": "Консоли",
+    "price": 31999,
+    "oldPrice": 35999,
+    "rating": 4.9,
+    "reviews": 1850,
+    "image": "https://images.unsplash.com/photo-1612282130134-4b53fa497ef0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "7\" OLED",
+      "Память": "64 ГБ",
+      "Особенность": "Портативность"
+    },
+    "description": "Лучшая портативная консоль с невероятно ярким экраном.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p53",
+    "name": "Геймпад Sony DualSense Edge",
+    "category": "Периферия",
+    "price": 24999,
+    "oldPrice": 27999,
+    "rating": 4.8,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Подключение": "Беспроводное",
+      "Совместимость": "PS5, PC",
+      "Особенность": "Сменные стики, лепестки"
+    },
+    "description": "Профессиональный контроллер для PlayStation 5 с полной кастомизацией.",
+    "isNew": true,
+    "isPopular": false
+  },
+  {
+    "id": "p54",
+    "name": "Очки виртуальной реальности Meta Quest 3 128GB",
+    "category": "Консоли",
+    "price": 59999,
+    "oldPrice": 64999,
+    "rating": 4.9,
+    "reviews": 650,
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Разрешение": "4K+ (2064x2208 на глаз)",
+      "Процессор": "Snapdragon XR2 Gen 2",
+      "Память": "128 ГБ"
+    },
+    "description": "Новый уровень автономного VR с цветным сквозным видением.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p55",
+    "name": "Блок питания Deepcool PK650D 650W",
+    "category": "Комплектующие",
+    "price": 5499,
+    "oldPrice": 6299,
+    "rating": 4.7,
+    "reviews": 1120,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Мощность": "650 Вт",
+      "Сертификат": "80 PLUS Bronze",
+      "Кабели": "Черные плоские"
+    },
+    "description": "Надежный и тихий блок питания для сборок среднего уровня.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p56",
+    "name": "SSD 2.5\" SATA Накопитель Kingston A400 480 ГБ",
+    "category": "Комплектующие",
+    "price": 3499,
+    "oldPrice": 4199,
+    "rating": 4.8,
+    "reviews": 8500,
+    "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Форм-фактор": "2.5\"",
+      "Интерфейс": "SATA III",
+      "Чтение": "500 Мбайт/сек"
+    },
+    "description": "Отличный вариант для ускорения старого ноутбука или ПК.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p57",
+    "name": "Колонка портативная JBL Charge 5 черный",
+    "category": "Телевизоры",
+    "price": 14999,
+    "oldPrice": 16999,
+    "rating": 4.9,
+    "reviews": 2400,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Мощность": "40 Вт",
+      "Автономность": "До 20 ч",
+      "Защита": "IP67",
+      "Функции": "PowerBank"
+    },
+    "description": "Мощный звук, который можно взять с собой на природу.",
+    "isNew": false,
+    "isPopular": true
+  },
+  {
+    "id": "p58",
+    "name": "Наушники TWS Samsung Galaxy Buds2 Pro фиолетовый",
+    "category": "Периферия",
+    "price": 13999,
+    "oldPrice": 15999,
+    "rating": 4.8,
+    "reviews": 850,
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Тип": "Внутриканальные",
+      "ANC": "Есть",
+      "Кодек": "SSC (24-bit)",
+      "Защита": "IPX7"
+    },
+    "description": "Идеальная пара для смартфона Galaxy с 24-битным звуком и шумодавом.",
+    "isNew": false,
+    "isPopular": false
+  },
+  {
+    "id": "p59",
+    "name": "Планшет Xiaomi Pad 6 8/256 ГБ серый",
+    "category": "Смартфоны",
+    "price": 32999,
+    "oldPrice": 36999,
+    "rating": 4.9,
+    "reviews": 1150,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "11\" IPS 144 Гц",
+      "Процессор": "Snapdragon 870",
+      "Батарея": "8840 мА*ч",
+      "Корпус": "Металл"
+    },
+    "description": "Мощный планшет для игр и медиа с шикарным экраном 144 Гц.",
+    "isNew": true,
+    "isPopular": true
+  },
+  {
+    "id": "p60",
+    "name": "Электронная книга PocketBook 617 белый",
+    "category": "Смартфоны",
+    "price": 12999,
+    "oldPrice": 14499,
+    "rating": 4.7,
+    "reviews": 560,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=500&q=80",
+    "specs": {
+      "Экран": "6\" E-Ink Carta",
+      "Подсветка": "Есть, SMARTlight",
+      "Память": "8 ГБ",
+      "Wi-Fi": "Есть"
+    },
+    "description": "Компактная читалка с умной подсветкой и поддержкой всех форматов.",
+    "isNew": false,
+    "isPopular": false
   }
 ]
