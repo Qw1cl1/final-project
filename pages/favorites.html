@@ -93,7 +93,10 @@
         grid.className = 'row g-4';
         
         const favProducts = Store.products.filter(p => Store.favorites.includes(p.id));
-        grid.innerHTML = favProducts.map(p => App.generateProductCard(p)).join('');
+        grid.innerHTML = favProducts.map((p, index) => {
+          const cardHtml = App.generateProductCard(p);
+          return cardHtml.replace('class="col-12 col-sm-6 col-lg-3 mb-4"', `class="col-12 col-sm-6 col-lg-3 mb-4 stagger-item" style="animation-delay: ${index * 0.04}s"`);
+        }).join('');
         summary.textContent = `${favProducts.length} товаров`;
       };
 

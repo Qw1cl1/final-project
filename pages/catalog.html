@@ -62,10 +62,17 @@
           <form id="filter-form">
             <div class="mb-6">
               <label class="form-label fw-bold small text-uppercase tracking-wider text-muted mb-3">Цена (₽)</label>
-              <div class="d-flex align-items-center gap-3">
-                <input type="number" class="form-control glass border-0" id="price-min" placeholder="От">
-                <span class="text-muted">—</span>
-                <input type="number" class="form-control glass border-0" id="price-max" placeholder="До">
+              <div class="price-slider-container">
+                <div class="slider-track-wrapper">
+                  <div class="slider-track-highlight" id="slider-track-highlight"></div>
+                  <input type="range" min="0" max="250000" value="0" class="slider-range-input" id="price-slider-min">
+                  <input type="range" min="0" max="250000" value="250000" class="slider-range-input" id="price-slider-max">
+                </div>
+                <div class="d-flex justify-content-between mt-3 gap-2">
+                  <input type="number" class="form-control glass border-0 text-center py-2" id="price-min" placeholder="От" style="font-size: 0.85rem;">
+                  <span class="text-muted align-self-center">—</span>
+                  <input type="number" class="form-control glass border-0 text-center py-2" id="price-max" placeholder="До" style="font-size: 0.85rem;">
+                </div>
               </div>
             </div>
             
@@ -86,6 +93,9 @@
                 </div>
               </div>
             </div>
+
+            <!-- Dynamic Category-Specific Spec Filters -->
+            <div id="dynamic-filters-container"></div>
 
             <button type="submit" class="btn btn-primary w-100 py-3 fw-bold">Применить</button>
           </form>

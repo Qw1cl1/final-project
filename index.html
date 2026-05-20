@@ -261,7 +261,10 @@
 
       if (Store.products.length > 0) {
         const hits = Store.products.filter(p => p.isPopular).slice(0, 4);
-        grid.innerHTML = hits.map(p => App.generateProductCard(p)).join('');
+        grid.innerHTML = hits.map((p, index) => {
+          const cardHtml = App.generateProductCard(p);
+          return cardHtml.replace('class="col-12 col-sm-6 col-lg-3 mb-4"', `class="col-12 col-sm-6 col-lg-3 mb-4 stagger-item" style="animation-delay: ${index * 0.05}s"`);
+        }).join('');
       } else {
         grid.innerHTML = '<div class="col-12 text-center py-5"><div class="text-muted"><i class="bi bi-wifi-off fs-1 d-block mb-3"></i>Запустите сервер: <code>python3 -m http.server 8000</code></div></div>';
       }
